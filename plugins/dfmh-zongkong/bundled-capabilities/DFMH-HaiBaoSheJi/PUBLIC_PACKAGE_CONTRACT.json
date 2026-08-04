@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "repoName": "DFMH-HaiBaoSheJi",
+  "displayName": "海报设计技能",
+  "kind": "public-skill-package",
+  "maturity": "operational",
+  "fullSystemEquivalent": false,
+  "simulationLevel": "standalone-contract",
+  "primaryEntrypoints": [
+    "SKILL.md",
+    "skills/creating-promotional-posters/SKILL.md"
+  ],
+  "capabilities": [
+    "需求确认、平台画像、品类适配与视觉方向预选",
+    "素材授权、产品真实性、提示词溯源和候选审核",
+    "浏览器连续动作、失败停止和正式晋级"
+  ],
+  "externalRequirements": [
+    "Node.js 20 或更高版本，以及 PowerShell 5.1（运行 Windows 门禁测试时）。",
+    "使用者提供并有权使用的产品图片、品牌资料、准确文案和任务目标。",
+    "实际 AI 生图需要使用者自己的可用生图渠道、网页账号与人工登录授权。"
+  ],
+  "excludedPrivateDirectories": [
+    "temp",
+    "outputs",
+    "enterprises",
+    "issues",
+    "fixtures",
+    "tasks"
+  ],
+  "maxRelativePathLength": 120,
+  "acceptanceCommand": "npm test"
+}

@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "capabilityId": "customer-insight",
+  "enterpriseId": "acme-demo",
+  "businessProjectId": "20260729-001-deal-conversion",
+  "taskId": "deal-task-001",
+  "version": 1,
+  "customerRef": "customer-anonymous-001",
+  "planRef": {
+    "planId": "deal-task-001-plan",
+    "version": 1,
+    "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+  },
+  "projectContextVersion": 1,
+  "evidenceLedgerRevision": 1,
+  "debugCheckpoints": {
+    "beforeExecution": "diagnostics/before-001.json",
+    "duringExecution": "diagnostics/during-001.json",
+    "afterExecution": "diagnostics/after-001.json"
+  },
+  "sourceCustomerRefs": [
+    "customer-anonymous-001"
+  ],
+  "customerProfile": {
+    "segment": "待分析",
+    "decisionRoles": [],
+    "relevantConstraints": []
+  },
+  "buyingMotivations": [],
+  "dealStage": {
+    "stage": "unqualified",
+    "confidence": 0,
+    "evidenceRefs": []
+  },
+  "coreConcerns": [],
+  "fitAssessment": {
+    "status": "evidence_insufficient",
+    "reasons": []
+  },
+  "nextBestQuestions": [],
+  "evidenceIndex": [],
+  "unknowns": [],
+  "downstreamBrief": {
+    "dealStrategy": {
+      "focus": [],
+      "forbiddenClaims": []
+    }
+  },
+  "clientAutonomy": {
+    "pressureTacticsUsed": false,
+    "guaranteeMade": false
+  },
+  "externalActions": []
+}

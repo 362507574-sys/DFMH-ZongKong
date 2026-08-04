@@ -1,0 +1,20 @@
+{
+  "name": "dfmh",
+  "interface": {
+    "displayName": "DFMH"
+  },
+  "plugins": [
+    {
+      "name": "dfmh-zongkong",
+      "source": {
+        "source": "local",
+        "path": "./plugins/dfmh-zongkong"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

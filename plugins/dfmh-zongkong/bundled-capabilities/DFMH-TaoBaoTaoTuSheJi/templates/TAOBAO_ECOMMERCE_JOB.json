@@ -1,0 +1,103 @@
+{
+  "schemaVersion": "1.0",
+  "jobId": "",
+  "originThreadMode": "test",
+  "status": "intake_pending",
+  "scope": {
+    "mode": "",
+    "homeRequired": false,
+    "detailRequired": false
+  },
+  "category": {
+    "id": "",
+    "subtype": "",
+    "profileVersion": "",
+    "profilePath": "",
+    "profileSha256": "",
+    "confirmed": false
+  },
+  "product": {
+    "name": "",
+    "assets": [],
+    "facts": []
+  },
+  "sellingPoints": {
+    "confirmed": false,
+    "confirmationStatement": "",
+    "confirmedAt": "",
+    "items": []
+  },
+  "marketBenchmark": {
+    "completed": false,
+    "completedAt": "",
+    "productCategory": "",
+    "reportPath": "",
+    "references": [],
+    "styleDecision": {}
+  },
+  "promptSet": {
+    "confirmed": false,
+    "confirmationStatement": "",
+    "confirmedAt": "",
+    "styleLock": {},
+    "structureLock": {},
+    "items": []
+  },
+  "assetTransfer": {
+    "required": true,
+    "assetPath": "",
+    "expectedSha256": "",
+    "itemId": "",
+    "promptVersion": "",
+    "verifiedAt": "",
+    "chatSessionReference": "",
+    "conversationAction": "",
+    "authorizationConfirmed": false,
+    "destination": "ChatGPT web via QQ Browser",
+    "method": "",
+    "clipboardPrepared": false,
+    "thumbnailVerified": false,
+    "verifiedAssetName": "",
+    "pathTextEntered": false,
+    "status": "pending",
+    "failureReason": ""
+  },
+  "generation": {
+    "currentItemId": "",
+    "channel": "chatgpt_web_qq",
+    "channelStatus": "default",
+    "executionMode": "batch_after_style_anchor",
+    "reviewPolicy": "anchor_once_batch_qc_final_set_review",
+    "batchAuthorization": {},
+    "channelAuthorization": {},
+    "chatSessionPolicy": "single_conversation_full_set",
+    "chatSessionReference": "",
+    "chatSessionOpenedForItemId": "",
+    "newConversationCount": 0,
+    "styleAnchor": {
+      "itemId": "",
+      "confirmed": false,
+      "confirmationStatement": "",
+      "confirmedAt": ""
+    }
+  },
+  "candidates": [],
+  "setAcceptance": {
+    "path": "",
+    "passed": false,
+    "checks": {}
+  },
+  "approval": {
+    "approved": false,
+    "statement": "",
+    "approvedAt": ""
+  },
+  "promotion": {
+    "outputDirectory": "",
+    "promoted": false,
+    "promotedAt": "",
+    "promotedBy": "",
+    "files": []
+  },
+  "history": []
+}

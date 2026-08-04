@@ -1,0 +1,230 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.ai-control-center/contracts/ai-deal-officer/deal-execution-plan.schema.json",
+  "title": "AI成交官执行计划",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "planId",
+    "planVersion",
+    "taskId",
+    "enterpriseId",
+    "businessProjectId",
+    "projectContextVersion",
+    "ownerOrganizationId",
+    "goal",
+    "scope",
+    "nonGoals",
+    "knowledgeStatus",
+    "evidenceSummary",
+    "rootCauseHypothesis",
+    "collaborationRequests",
+    "steps",
+    "retryLimitPerRootCause",
+    "externalActionsAllowed",
+    "decisionBoundaries",
+    "stopConditions",
+    "resumeFrom",
+    "createdAt"
+  ],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "planId": { "$ref": "#/$defs/safeId" },
+    "planVersion": { "type": "integer", "minimum": 1 },
+    "taskId": { "$ref": "#/$defs/safeId" },
+    "enterpriseId": { "$ref": "#/$defs/safeId" },
+    "businessProjectId": {
+      "type": "string",
+      "pattern": "^[0-9]{8}-[0-9]{3}-[a-z0-9-]{3,80}$"
+    },
+    "projectContextVersion": { "type": "integer", "minimum": 1 },
+    "ownerOrganizationId": { "const": "ai-deal-officer" },
+    "goal": { "type": "string", "minLength": 4 },
+    "scope": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": { "$ref": "#/$defs/skillId" }
+    },
+    "nonGoals": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "knowledgeStatus": {
+      "enum": ["matched", "ready", "no_hit", "degraded"]
+    },
+    "evidenceSummary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["knownFacts", "hypotheses", "unknowns", "evidenceRefs"],
+      "properties": {
+        "knownFacts": { "type": "array", "items": { "$ref": "#/$defs/input" } },
+        "hypotheses": { "type": "array", "items": { "$ref": "#/$defs/input" } },
+        "unknowns": { "type": "array", "items": { "$ref": "#/$defs/input" } },
+        "evidenceRefs": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "rootCauseHypothesis": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["code", "ownerOrganizationId", "collaborationRequired"],
+      "properties": {
+        "code": {
+          "enum": [
+            "traffic_quality",
+            "product_fit",
+            "pricing",
+            "delivery",
+            "brand_trust",
+            "customer_insight",
+            "deal_strategy",
+            "sales_execution",
+            "evidence_insufficient"
+          ]
+        },
+        "ownerOrganizationId": { "$ref": "#/$defs/safeId" },
+        "collaborationRequired": { "type": "boolean" }
+      }
+    },
+    "collaborationRequests": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["organizationId", "reasonCode", "requestedScope"],
+        "properties": {
+          "organizationId": { "$ref": "#/$defs/safeId" },
+          "reasonCode": { "type": "string", "minLength": 1 },
+          "requestedScope": {
+            "type": "array",
+            "minItems": 1,
+            "items": { "type": "string", "minLength": 1 }
+          }
+        }
+      }
+    },
+    "steps": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 3,
+      "items": { "$ref": "#/$defs/step" }
+    },
+    "retryLimitPerRootCause": { "const": 3 },
+    "externalActionsAllowed": { "const": false },
+    "decisionBoundaries": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "stopConditions": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "resumeFrom": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["stepId", "checkpoint"],
+      "properties": {
+        "stepId": { "type": "string", "minLength": 1 },
+        "checkpoint": { "const": "before_execution" }
+      }
+    },
+    "createdAt": { "type": "string", "format": "date-time" }
+  },
+  "$defs": {
+    "safeId": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9-]{2,119}$"
+    },
+    "skillId": {
+      "enum": ["customer-insight", "deal-strategy", "sales-training"]
+    },
+    "input": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["classification", "evidenceRef", "summary"],
+      "properties": {
+        "classification": {
+          "enum": [
+            "enterprise_fact",
+            "customer_statement",
+            "behavior_evidence",
+            "public_source",
+            "ai_inference",
+            "hypothesis",
+            "unknown"
+          ]
+        },
+        "evidenceRef": { "type": "string" },
+        "summary": { "type": "string", "minLength": 1 }
+      }
+    },
+    "artifactRef": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["artifactId", "version", "sha256", "sourceOrganizationId"],
+      "properties": {
+        "artifactId": { "$ref": "#/$defs/skillId" },
+        "version": { "type": "integer", "minimum": 1 },
+        "sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+        "sourceOrganizationId": { "$ref": "#/$defs/safeId" }
+      }
+    },
+    "step": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "stepId",
+        "skillId",
+        "dependsOn",
+        "inputArtifactRefs",
+        "outputArtifactId",
+        "requiredScopes",
+        "completionCriteria",
+        "debugCheckpoints",
+        "status"
+      ],
+      "properties": {
+        "stepId": { "$ref": "#/$defs/safeId" },
+        "skillId": { "$ref": "#/$defs/skillId" },
+        "dependsOn": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "$ref": "#/$defs/safeId" }
+        },
+        "inputArtifactRefs": {
+          "type": "array",
+          "maxItems": 1,
+          "items": { "$ref": "#/$defs/artifactRef" }
+        },
+        "outputArtifactId": { "$ref": "#/$defs/skillId" },
+        "requiredScopes": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "completionCriteria": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "debugCheckpoints": {
+          "const": ["before_execution", "during_execution", "after_execution"]
+        },
+        "status": { "const": "pending" }
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "name": "dfmh-zongkong",
+  "version": "1.0.0",
+  "description": "一个入口安装控制中心、飞书总控、质量监督与DFMH业务能力。",
+  "author": {
+    "name": "DFMH",
+    "url": "https://github.com/362507574-sys"
+  },
+  "repository": "https://github.com/362507574-sys/DFMH-ZongKong",
+  "homepage": "https://github.com/362507574-sys/DFMH-ZongKong#readme",
+  "keywords": [
+    "codex",
+    "orchestration",
+    "feishu",
+    "skills"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "DFMH总控",
+    "shortDescription": "AI数字员工控制中心与飞书任务入口",
+    "longDescription": "提供项目隔离、多能力调度、任务恢复、飞书接入和质量门禁。",
+    "developerName": "DFMH",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "初始化DFMH总控",
+      "创建一个隔离项目并分配能力",
+      "检查DFMH总控运行状态"
+    ]
+  }
+}

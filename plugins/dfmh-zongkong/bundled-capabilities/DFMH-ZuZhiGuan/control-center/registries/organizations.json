@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "organizations": [
+    {
+      "id": "ai-organization-officer",
+      "displayName": "AI组织官",
+      "aliases": [
+        "组织官"
+      ],
+      "systemName": "组织复制系统",
+      "status": "operational",
+      "acceptsFormalTasks": true,
+      "directory": "organizations/ai-organization-officer",
+      "coreSkills": [
+        {
+          "id": "talent-allocation",
+          "name": "人才配置",
+          "status": "operational"
+        },
+        {
+          "id": "talent-development",
+          "name": "人才培养",
+          "status": "operational"
+        },
+        {
+          "id": "process-replication",
+          "name": "流程复制",
+          "status": "operational"
+        }
+      ]
+    }
+  ]
+}

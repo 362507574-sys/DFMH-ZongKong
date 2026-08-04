@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "ai-organization-officer",
+  "displayName": "AI组织官",
+  "systemName": "组织复制系统",
+  "deploymentMode": "same_project_organization_module",
+  "status": "operational",
+  "acceptsFormalTasks": true,
+  "rootControllerRegistration": "registered_operational",
+  "formalTaskRouting": "direct",
+  "coreSkills": [
+    {
+      "id": "talent-allocation",
+      "name": "人才配置",
+      "status": "formal"
+    },
+    {
+      "id": "talent-development",
+      "name": "人才培养",
+      "status": "formal"
+    },
+    {
+      "id": "process-replication",
+      "name": "流程复制",
+      "status": "formal"
+    }
+  ],
+  "publicSkillDependencies": [
+    {
+      "id": "public.promotional-poster",
+      "mode": "via-control-center"
+    },
+    {
+      "id": "public.taobao-ecommerce-image-set",
+      "mode": "via-control-center"
+    }
+  ]
+}

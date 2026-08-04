@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 2,
+  "enterpriseId": "replace-enterprise-id",
+  "businessProjectId": "20260729-101-replace-business-project",
+  "taskId": "20260729-102-talent-development",
+  "sourceSkill": "talent-development",
+  "sourceStageId": "real-work",
+  "targetSkill": "talent-allocation",
+  "problem": "岗位质量标准无法支持训练验收",
+  "evidence": ["quality-report.json#job-standard"],
+  "impact": ["人才培养暂停"],
+  "pausePosition": "real-work",
+  "currentBinding": {"artifactId": "talent-allocation", "version": 2, "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"},
+  "recommendedChange": ["补充可观察质量标准"],
+  "status": "requested_to_control_center"
+}

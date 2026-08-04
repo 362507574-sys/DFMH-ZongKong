@@ -1,0 +1,91 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.ai-control-center/contracts/ai-deal-officer/deal-task.schema.json",
+  "title": "AI成交官可恢复任务",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "revision",
+    "enterpriseId",
+    "businessProjectId",
+    "taskId",
+    "planId",
+    "planVersion",
+    "planSha256",
+    "capabilityId",
+    "status",
+    "resumeStatus",
+    "currentStepId",
+    "evidenceLedgerRevision",
+    "candidateVersion",
+    "failureCounts",
+    "lastDiagnosticRef",
+    "cancelledAt",
+    "statusHistory",
+    "updatedAt"
+  ],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "revision": { "type": "integer", "minimum": 1 },
+    "enterpriseId": { "type": "string", "minLength": 3 },
+    "businessProjectId": { "type": "string", "minLength": 3 },
+    "taskId": { "type": "string", "minLength": 3 },
+    "planId": { "type": "string", "minLength": 3 },
+    "planVersion": { "type": "integer", "minimum": 1 },
+    "planSha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+    "capabilityId": {
+      "enum": ["customer-insight", "deal-strategy", "sales-training"]
+    },
+    "status": {
+      "enum": [
+        "received",
+        "planning",
+        "knowledge_preflight",
+        "evidence_check",
+        "executing",
+        "debugging",
+        "quality_review",
+        "awaiting_emperor_review",
+        "pilot_running",
+        "performance_review",
+        "completed",
+        "waiting_input",
+        "waiting_collaboration",
+        "repairing",
+        "cancelled",
+        "failed"
+      ]
+    },
+    "resumeStatus": { "type": "string" },
+    "currentStepId": { "type": "string" },
+    "evidenceLedgerRevision": { "type": "integer", "minimum": 0 },
+    "candidateVersion": { "type": "integer", "minimum": 0 },
+    "failureCounts": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "integer",
+        "minimum": 0
+      }
+    },
+    "lastDiagnosticRef": { "type": "string" },
+    "cancelledAt": { "type": "string" },
+    "statusHistory": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["from", "to", "reason", "taskRevision", "planVersion", "createdAt"],
+        "properties": {
+          "from": { "type": "string" },
+          "to": { "type": "string" },
+          "reason": { "type": "string", "minLength": 1 },
+          "taskRevision": { "type": "integer", "minimum": 2 },
+          "planVersion": { "type": "integer", "minimum": 1 },
+          "createdAt": { "type": "string", "format": "date-time" }
+        }
+      }
+    },
+    "updatedAt": { "type": "string", "format": "date-time" }
+  }
+}

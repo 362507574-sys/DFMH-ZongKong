@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "ai-organization-officer.enterprise-profile.v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "enterpriseId",
+    "displayName",
+    "region",
+    "timezone",
+    "authorization",
+    "organizationSummary",
+    "sensitive",
+    "facts",
+    "unknowns",
+    "version",
+    "createdAt",
+    "updatedAt"
+  ],
+  "properties": {
+    "schemaVersion": {"const": 1},
+    "enterpriseId": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]{2,63}$"},
+    "displayName": {"type": "string", "minLength": 1},
+    "region": {"type": "object"},
+    "timezone": {"type": "string", "minLength": 1},
+    "authorization": {"type": "object"},
+    "organizationSummary": {"type": "object"},
+    "sensitive": {"type": "object"},
+    "facts": {"type": "array"},
+    "unknowns": {"type": "array"},
+    "version": {"type": "integer", "minimum": 1},
+    "createdAt": {"type": "string", "format": "date-time"},
+    "updatedAt": {"type": "string", "format": "date-time"}
+  }
+}

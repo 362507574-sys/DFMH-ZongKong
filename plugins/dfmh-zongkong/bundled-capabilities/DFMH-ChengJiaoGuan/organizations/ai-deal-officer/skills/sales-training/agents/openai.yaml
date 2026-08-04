@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI成交官·销售训练"
+  short_description: "模拟客户、销售陪练、证据评分与销冠复制"
+  default_prompt: "使用AI销售训练Skill处理当前企业任务；绑定已验证成交策略，完成真实场景后再反馈，以可观察证据评分，并把人事决定保留给使用者。"

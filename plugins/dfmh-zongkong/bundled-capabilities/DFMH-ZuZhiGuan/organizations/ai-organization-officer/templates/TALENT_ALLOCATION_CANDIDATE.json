@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "taskId": "20260728-001-talent-allocation",
+  "enterpriseId": "replace-enterprise-id",
+  "version": 1,
+  "diagnosis": {
+    "businessContext": {},
+    "organizationProblems": [],
+    "nonTalentRootCauses": [],
+    "evidenceRefs": []
+  },
+  "organizationDesign": {
+    "departments": [],
+    "reportingLines": [],
+    "decisionRights": []
+  },
+  "staffingPlan": {
+    "requiredNow": [],
+    "developInternally": [],
+    "deferred": []
+  },
+  "jobProfiles": [],
+  "talentProfiles": [],
+  "recruitmentPackage": {},
+  "personJobMatches": [],
+  "performanceDesign": {},
+  "compensationDesign": {
+    "status": "requires-current-market-research"
+  },
+  "adjustmentRecommendations": [],
+  "evidenceIndex": [],
+  "unknowns": [],
+  "risks": [],
+  "decisionsRequired": [],
+  "downstreamBrief": {
+    "talentDevelopment": {},
+    "processReplication": {}
+  },
+  "createdAt": "2026-07-28T00:00:00.000Z"
+}

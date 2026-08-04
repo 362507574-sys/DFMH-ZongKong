@@ -1,0 +1,93 @@
+{
+  "id": "stroller",
+  "version": "stroller-v1",
+  "state": "frozen",
+  "subtypes": [
+    "general_stroller",
+    "reversible_handle_stroller",
+    "compact_fold_stroller"
+  ],
+  "applicableCategories": [
+    "婴儿推车",
+    "童车",
+    "轻便婴儿车"
+  ],
+  "excludedCategories": [
+    "shoes"
+  ],
+  "sellingPointPriority": [
+    "caregiver_and_child_benefit",
+    "verified_mechanism",
+    "safety_and_stability",
+    "comfort_and_convenience",
+    "appearance_difference"
+  ],
+  "recommendedViews": [
+    "source-supported three-quarter view",
+    "verified side view",
+    "verified folded view",
+    "borderless mechanism macro"
+  ],
+  "structureChecks": [
+    "canopy_and_support_rods",
+    "seat_bumper_and_harness",
+    "handle_pivot_and_end_positions",
+    "frame_connection_topology",
+    "basket_position",
+    "front_and_rear_wheel_ratio"
+  ],
+  "homePageRoles": [
+    "hero",
+    "core_mechanism",
+    "comfort",
+    "mobility",
+    "storage_or_fold"
+  ],
+  "detailPageRoles": [
+    "brand_hero",
+    "pain_point",
+    "mechanism_proof",
+    "detail_macro",
+    "use_scene",
+    "fold_or_storage",
+    "summary"
+  ],
+  "shotFamilies": [
+    "large_three_quarter_hero",
+    "verified_mechanism_sequence",
+    "caregiver_child_scene",
+    "borderless_detail_band",
+    "folded_storage_scene"
+  ],
+  "proofModes": [
+    "source-supported endpoint comparison",
+    "product-anchored callout",
+    "borderless macro crop",
+    "scene-integrated benefit proof"
+  ],
+  "forbiddenPatterns": [
+    "invented_invisible_structure",
+    "exaggerated_wheel_ratio",
+    "ambiguous_handle_motion",
+    "generic_similar_product_replacement",
+    "isolated_floating_detail_box",
+    "per_image_emperor_approval"
+  ],
+  "copyTone": [
+    "caregiving benefit first",
+    "clear and warm",
+    "no unsupported safety absolutes"
+  ],
+  "pageRhythm": [
+    "hero",
+    "pain_point",
+    "mechanism",
+    "comfort",
+    "mobility",
+    "detail",
+    "storage",
+    "summary"
+  ],
+  "plannerPromptPath": "templates/TAOBAO_DETAIL_IMAGE_PROMPT.md",
+  "imagePromptPath": "templates/TAOBAO_HOME_IMAGE_PROMPT.md"
+}

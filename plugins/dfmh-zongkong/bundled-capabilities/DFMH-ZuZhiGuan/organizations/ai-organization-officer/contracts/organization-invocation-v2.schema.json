@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "ai-organization-officer.organization-invocation.v2",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "enterpriseId",
+    "businessProjectId",
+    "taskId",
+    "primaryOrganization",
+    "primarySkill",
+    "mode",
+    "goal",
+    "authorizedScope",
+    "allowedCapabilityChain",
+    "allowedCollaborations",
+    "allowedPublicSkills",
+    "permissionPackage",
+    "decisionBoundary",
+    "pinnedInputs",
+    "continuationContext"
+  ],
+  "properties": {
+    "schemaVersion": {"const": 2},
+    "enterpriseId": {"type": "string", "minLength": 3},
+    "businessProjectId": {"type": "string", "minLength": 3},
+    "taskId": {"type": "string", "pattern": "^[0-9]{8}-[0-9]{3}-[a-z0-9-]{3,80}$"},
+    "primaryOrganization": {"const": "ai-organization-officer"},
+    "primarySkill": {"enum": ["talent-allocation", "talent-development", "process-replication"]},
+    "mode": {"enum": ["single-skill", "continuous-chain", "continuation"]},
+    "goal": {"type": "string", "minLength": 1},
+    "authorizedScope": {"type": "array"},
+    "allowedCapabilityChain": {"type": "array", "minItems": 1},
+    "allowedCollaborations": {"type": "array"},
+    "allowedPublicSkills": {"type": "array"},
+    "permissionPackage": {"type": "object"},
+    "decisionBoundary": {"type": "array", "minItems": 1},
+    "pinnedInputs": {"type": "array"},
+    "continuationContext": {"type": ["object", "null"]}
+  }
+}

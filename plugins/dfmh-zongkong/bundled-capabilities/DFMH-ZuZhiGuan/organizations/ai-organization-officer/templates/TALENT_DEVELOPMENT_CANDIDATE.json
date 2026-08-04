@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "taskId": "20260728-002-talent-development",
+  "enterpriseId": "example-enterprise",
+  "version": 1,
+  "upstreamTalentAsset": {},
+  "developmentDiagnosis": {},
+  "learnerScope": {},
+  "capabilityModel": [],
+  "objectives": [],
+  "modules": [],
+  "supportPlan": {},
+  "assessmentPlan": {},
+  "certification": {},
+  "growthPath": {},
+  "operations": {},
+  "evidenceIndex": [],
+  "unknowns": [],
+  "risks": [],
+  "decisionsRequired": [],
+  "downstreamBrief": {
+    "processReplication": {}
+  },
+  "createdAt": "2026-07-28T00:00:00.000Z"
+}

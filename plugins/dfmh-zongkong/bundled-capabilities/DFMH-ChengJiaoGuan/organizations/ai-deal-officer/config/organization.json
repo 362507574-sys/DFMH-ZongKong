@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "ai-deal-officer",
+  "displayName": "AI成交官",
+  "systemName": "成交转化系统",
+  "deploymentMode": "same_project_organization_module",
+  "status": "pilot",
+  "acceptsFormalTasks": false,
+  "rootControllerRegistration": "registered_designing",
+  "formalTaskRouting": "fallback_existing",
+  "peerOrganizationCalls": "contract_only",
+  "coreSkills": [
+    {
+      "id": "customer-insight",
+      "name": "AI客户洞察",
+      "status": "pilot"
+    },
+    {
+      "id": "deal-strategy",
+      "name": "AI成交策略",
+      "status": "pilot"
+    },
+    {
+      "id": "sales-training",
+      "name": "AI销售训练",
+      "status": "pilot"
+    }
+  ],
+  "publicSkillDependencies": [
+    {
+      "id": "public.promotional-poster",
+      "mode": "via-control-center"
+    },
+    {
+      "id": "public.taobao-ecommerce-image-set",
+      "mode": "via-control-center"
+    }
+  ]
+}

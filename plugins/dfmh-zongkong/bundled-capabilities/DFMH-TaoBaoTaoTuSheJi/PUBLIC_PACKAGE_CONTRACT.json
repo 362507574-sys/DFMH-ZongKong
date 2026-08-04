@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "repoName": "DFMH-TaoBaoTaoTuSheJi",
+  "displayName": "淘宝套图设计技能",
+  "kind": "public-skill-package",
+  "maturity": "pilot",
+  "fullSystemEquivalent": false,
+  "simulationLevel": "standalone-contract",
+  "primaryEntrypoints": [
+    "SKILL.md",
+    "workflows/TAOBAO_ECOMMERCE_IMAGE_SET_PILOT.md"
+  ],
+  "capabilities": [
+    "淘宝主图、详情图和多页面套图规划",
+    "产品身份指纹、卖点证据和系列一致性控制",
+    "逐张生成、逐张验收和整套复核"
+  ],
+  "externalRequirements": [
+    "Node.js 20 或更高版本，以及 PowerShell 5.1（运行 Windows 门禁测试时）。",
+    "使用者提供并有权使用的产品图片、品牌资料、准确文案和任务目标。",
+    "实际 AI 生图需要使用者自己的可用生图渠道、网页账号与人工登录授权。"
+  ],
+  "excludedPrivateDirectories": [
+    "temp",
+    "outputs",
+    "enterprises",
+    "issues",
+    "fixtures",
+    "tasks"
+  ],
+  "maxRelativePathLength": 120,
+  "acceptanceCommand": "npm test"
+}

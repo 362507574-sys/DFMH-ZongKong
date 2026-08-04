@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "organizationId": "ai-organization-officer",
+  "declaredRootStatus": "operational",
+  "acceptsFormalTasks": true,
+  "skills": [
+    {
+      "id": "talent-allocation",
+      "skillPath": "organizations/ai-organization-officer/skills/talent-allocation/SKILL.md",
+      "workflowPath": "organizations/ai-organization-officer/workflows/TALENT_ALLOCATION_PILOT.md",
+      "runtimePaths": [
+        "organizations/ai-organization-officer/scripts/talent_allocation_contract.mjs",
+        "organizations/ai-organization-officer/scripts/talent_allocation_gate.mjs",
+        "organizations/ai-organization-officer/scripts/organization_v2_runtime.mjs"
+      ],
+      "testPaths": [
+        "organizations/ai-organization-officer/tests/talent_allocation_contract.test.mjs",
+        "organizations/ai-organization-officer/tests/talent_allocation_gate.test.mjs",
+        "organizations/ai-organization-officer/tests/talent_allocation_skill_contract.test.mjs",
+        "organizations/ai-organization-officer/tests/organization_v2_full_loop.test.mjs"
+      ],
+      "evidenceLevel": "real_accepted",
+      "knownGaps": [],
+      "nextGate": "持续用正式企业项目复核人才配置建议、修改闭环和跨组织交接质量"
+    },
+    {
+      "id": "talent-development",
+      "skillPath": "organizations/ai-organization-officer/skills/talent-development/SKILL.md",
+      "workflowPath": "organizations/ai-organization-officer/workflows/TALENT_DEVELOPMENT_PILOT.md",
+      "runtimePaths": [
+        "organizations/ai-organization-officer/scripts/talent_development_contract.mjs",
+        "organizations/ai-organization-officer/scripts/talent_development_gate.mjs",
+        "organizations/ai-organization-officer/scripts/organization_v2_runtime.mjs"
+      ],
+      "testPaths": [
+        "organizations/ai-organization-officer/tests/talent_development_contract.test.mjs",
+        "organizations/ai-organization-officer/tests/talent_development_gate.test.mjs",
+        "organizations/ai-organization-officer/tests/talent_development_skill_contract.test.mjs",
+        "organizations/ai-organization-officer/tests/organization_v2_full_loop.test.mjs"
+      ],
+      "evidenceLevel": "real_accepted",
+      "knownGaps": [],
+      "nextGate": "持续用正式企业项目复核培养方案、效果证据和异常恢复质量"
+    },
+    {
+      "id": "process-replication",
+      "skillPath": "organizations/ai-organization-officer/skills/process-replication/SKILL.md",
+      "workflowPath": "organizations/ai-organization-officer/workflows/PROCESS_REPLICATION_PILOT.md",
+      "runtimePaths": [
+        "organizations/ai-organization-officer/scripts/process_replication_contract.mjs",
+        "organizations/ai-organization-officer/scripts/process_replication_gate.mjs",
+        "organizations/ai-organization-officer/scripts/organization_v2_runtime.mjs"
+      ],
+      "testPaths": [
+        "organizations/ai-organization-officer/tests/process_replication_contract.test.mjs",
+        "organizations/ai-organization-officer/tests/process_replication_gate.test.mjs",
+        "organizations/ai-organization-officer/tests/process_replication_skill_contract.test.mjs",
+        "organizations/ai-organization-officer/tests/organization_v2_full_loop.test.mjs"
+      ],
+      "evidenceLevel": "real_accepted",
+      "knownGaps": [],
+      "nextGate": "持续用正式企业项目复核流程复制、版本锁定和复盘证据质量"
+    }
+  ],
+  "fast": {
+    "boundedDispatch": true,
+    "reusesSharedRuntime": true,
+    "evidencePaths": [
+      "control-center/registries/organization-runtime.json",
+      "organizations/ai-organization-officer/scripts/organization_execution_planner.mjs"
+    ]
+  },
+  "accurate": {
+    "separatesEvidence": true,
+    "locksExactDependencies": true,
+    "hasQualityGate": true,
+    "evidencePaths": [
+      "organizations/ai-organization-officer/scripts/organization_evidence_engine.mjs",
+      "organizations/ai-organization-officer/scripts/organization_quality_engine.mjs",
+      "organizations/ai-organization-officer/scripts/organization_chain_validator.mjs"
+    ]
+  },
+  "stable": {
+    "persistsState": true,
+    "idempotentResume": true,
+    "boundedRetry": true,
+    "evidencePaths": [
+      "organizations/ai-organization-officer/scripts/organization_execution_store.mjs",
+      "organizations/ai-organization-officer/scripts/organization_task_store.mjs",
+      "organizations/ai-organization-officer/scripts/organization_v2_runtime.mjs"
+    ]
+  },
+  "knownGaps": [],
+  "nextOrganizationGate": "保持正式状态，以真实企业任务持续复核修改、恢复、交接和人工决策边界"
+}

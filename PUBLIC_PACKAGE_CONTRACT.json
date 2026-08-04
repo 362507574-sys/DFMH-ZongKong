@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "repoName": "DFMH-ZongKong",
+  "pluginName": "dfmh-zongkong",
+  "fullPrivateSystemEquivalent": false,
+  "telemetry": false,
+  "containsPublisherCredentials": false,
+  "modules": [
+    "control-center",
+    "feishu-commander",
+    "quality-publisher"
+  ],
+  "acceptanceCommand": "npm test"
+}

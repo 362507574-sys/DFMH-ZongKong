@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "administrator": {
+    "displayName": "管理员",
+    "directChatId": "<YOUR_DIRECT_CHAT_ID>",
+    "allowedGroupIds": []
+  },
+  "feishu": {
+    "enabled": false,
+    "appId": "<YOUR_FEISHU_APP_ID>",
+    "secretSource": "local-secret-file"
+  },
+  "knowledge": {
+    "enabled": false,
+    "preferredSpaces": []
+  },
+  "runtime": {
+    "maxConcurrentProjects": 2,
+    "maxRecoveryAttempts": 3
+  }
+}

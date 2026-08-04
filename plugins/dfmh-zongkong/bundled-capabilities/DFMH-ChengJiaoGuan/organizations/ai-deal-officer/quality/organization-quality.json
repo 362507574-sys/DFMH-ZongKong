@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "organizationId": "ai-deal-officer",
+  "declaredRootStatus": "designing",
+  "acceptsFormalTasks": false,
+  "skills": [
+    {
+      "id": "customer-insight",
+      "skillPath": "organizations/ai-deal-officer/skills/customer-insight/SKILL.md",
+      "workflowPath": "organizations/ai-deal-officer/workflows/CUSTOMER_INSIGHT_PILOT.md",
+      "runtimePaths": [
+        "organizations/ai-deal-officer/scripts/deal_skill_runtime.mjs",
+        "organizations/ai-deal-officer/scripts/customer_insight.mjs",
+        "organizations/ai-deal-officer/scripts/customer_insight_workflow.mjs",
+        "organizations/ai-deal-officer/scripts/deal_planner.mjs",
+        "organizations/ai-deal-officer/scripts/deal_task_store.mjs",
+        "organizations/ai-deal-officer/scripts/deal_evidence_ledger.mjs",
+        "organizations/ai-deal-officer/scripts/deal_debugger.mjs",
+        "organizations/ai-deal-officer/scripts/artifact_dependency_guard.mjs"
+      ],
+      "testPaths": [
+        "organizations/ai-deal-officer/tests/customer_insight_skill.test.mjs",
+        "organizations/ai-deal-officer/tests/customer_insight_workflow.test.mjs",
+        "organizations/ai-deal-officer/tests/customer_insight_e2e.test.mjs",
+        "organizations/ai-deal-officer/tests/deal_task_store.test.mjs",
+        "organizations/ai-deal-officer/tests/deal_planner.test.mjs"
+      ],
+      "evidenceLevel": "simulation",
+      "knownGaps": [
+        "real_enterprise_task:真实授权客户资料仍未提供，真实任务验收处于等待输入",
+        "modification_closure:尚未完成用户对真实洞察成果提出修改后的版本化再验收",
+        "exception_recovery:恢复机制已通过内部测试但尚未在真实客户任务中断中验收",
+        "cross_organization_handoff:尚未完成真实客户洞察向成交策略的控制中心交接闭环"
+      ],
+      "nextGate": "用真实授权客户资料完成洞察交付、修改、任务恢复和成交策略交接验收"
+    },
+    {
+      "id": "deal-strategy",
+      "skillPath": "organizations/ai-deal-officer/skills/deal-strategy/SKILL.md",
+      "workflowPath": "organizations/ai-deal-officer/workflows/DEAL_STRATEGY_PILOT.md",
+      "runtimePaths": [
+        "organizations/ai-deal-officer/scripts/deal_skill_runtime.mjs",
+        "organizations/ai-deal-officer/scripts/deal_strategy.mjs",
+        "organizations/ai-deal-officer/scripts/deal_planner.mjs",
+        "organizations/ai-deal-officer/scripts/deal_task_store.mjs",
+        "organizations/ai-deal-officer/scripts/deal_evidence_ledger.mjs",
+        "organizations/ai-deal-officer/scripts/deal_debugger.mjs",
+        "organizations/ai-deal-officer/scripts/artifact_dependency_guard.mjs"
+      ],
+      "testPaths": [
+        "organizations/ai-deal-officer/tests/deal_strategy_skill.test.mjs",
+        "organizations/ai-deal-officer/tests/organization_runtime.test.mjs",
+        "organizations/ai-deal-officer/tests/deal_planner.test.mjs",
+        "organizations/ai-deal-officer/tests/deal_task_store.test.mjs",
+        "organizations/ai-deal-officer/tests/artifact_dependency_guard.test.mjs"
+      ],
+      "evidenceLevel": "simulation",
+      "knownGaps": [
+        "real_enterprise_task:尚未完成真实企业和真实客户成交策略任务验收",
+        "modification_closure:尚未完成真实使用反馈后的策略版本化修改与再验收",
+        "exception_recovery:共享恢复机制已内部验证但尚未在真实成交任务中断中验收",
+        "cross_organization_handoff:尚未完成客户洞察输入和销售训练输出的真实双向交接"
+      ],
+      "nextGate": "基于真实验收客户洞察完成成交策略交付、修改、恢复和销售训练交接"
+    },
+    {
+      "id": "sales-training",
+      "skillPath": "organizations/ai-deal-officer/skills/sales-training/SKILL.md",
+      "workflowPath": "organizations/ai-deal-officer/workflows/SALES_TRAINING_PILOT.md",
+      "runtimePaths": [
+        "organizations/ai-deal-officer/scripts/deal_skill_runtime.mjs",
+        "organizations/ai-deal-officer/scripts/sales_training.mjs",
+        "organizations/ai-deal-officer/scripts/deal_planner.mjs",
+        "organizations/ai-deal-officer/scripts/deal_task_store.mjs",
+        "organizations/ai-deal-officer/scripts/deal_evidence_ledger.mjs",
+        "organizations/ai-deal-officer/scripts/deal_debugger.mjs",
+        "organizations/ai-deal-officer/scripts/artifact_dependency_guard.mjs"
+      ],
+      "testPaths": [
+        "organizations/ai-deal-officer/tests/sales_training_skill.test.mjs",
+        "organizations/ai-deal-officer/tests/organization_runtime.test.mjs",
+        "organizations/ai-deal-officer/tests/deal_planner.test.mjs",
+        "organizations/ai-deal-officer/tests/deal_task_store.test.mjs",
+        "organizations/ai-deal-officer/tests/artifact_dependency_guard.test.mjs"
+      ],
+      "evidenceLevel": "simulation",
+      "knownGaps": [
+        "real_enterprise_task:尚未使用真实授权训练样本完成企业销售训练验收",
+        "modification_closure:尚未完成真实学员和用户反馈后的训练版本化修改与再验收",
+        "exception_recovery:共享恢复机制已内部验证但尚未在真实长时陪练中断中验收",
+        "cross_organization_handoff:尚未完成成交策略输入、组织官边界和训练反馈的真实交接"
+      ],
+      "nextGate": "用授权多样本完成真实陪练、修改、恢复和组织边界交接验收"
+    }
+  ],
+  "fast": {
+    "boundedDispatch": true,
+    "reusesSharedRuntime": true,
+    "evidencePaths": [
+      "organizations/ai-deal-officer/scripts/deal_skill_runtime.mjs",
+      "organizations/ai-deal-officer/scripts/deal_planner.mjs",
+      "organizations/ai-deal-officer/tests/deal_planner.test.mjs",
+      "organizations/ai-deal-officer/tests/organization_runtime.test.mjs"
+    ]
+  },
+  "accurate": {
+    "separatesEvidence": true,
+    "locksExactDependencies": true,
+    "hasQualityGate": true,
+    "evidencePaths": [
+      "organizations/ai-deal-officer/scripts/deal_evidence_ledger.mjs",
+      "organizations/ai-deal-officer/scripts/artifact_dependency_guard.mjs",
+      "organizations/ai-deal-officer/scripts/customer_insight.mjs",
+      "organizations/ai-deal-officer/scripts/deal_strategy.mjs",
+      "organizations/ai-deal-officer/scripts/sales_training.mjs",
+      "organizations/ai-deal-officer/tests/artifact_dependency_guard.test.mjs"
+    ]
+  },
+  "stable": {
+    "persistsState": true,
+    "idempotentResume": true,
+    "boundedRetry": true,
+    "evidencePaths": [
+      "organizations/ai-deal-officer/scripts/deal_task_store.mjs",
+      "organizations/ai-deal-officer/scripts/deal_debugger.mjs",
+      "organizations/ai-deal-officer/scripts/deal_planner.mjs",
+      "organizations/ai-deal-officer/tests/deal_task_store.test.mjs",
+      "organizations/ai-deal-officer/tests/deal_debugger.test.mjs"
+    ]
+  },
+  "knownGaps": [
+    "real_enterprise_task:三个技能均未完成真实企业与真实授权资料验收",
+    "modification_closure:尚未完成真实交付后的版本化修改闭环",
+    "exception_recovery:内部恢复测试已通过但真实长任务恢复尚未验收",
+    "cross_organization_handoff:内部精确依赖已验证但真实跨组织交接尚未验收"
+  ],
+  "nextOrganizationGate": "三个技能分别完成真实交付、修改闭环、异常恢复和跨组织交接后，才可申请operational评审"
+}

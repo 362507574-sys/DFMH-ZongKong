@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-04T07:09:16.853Z",
+  "packages": [
+    {
+      "repoName": "DFMH-ZhangDuoGuan",
+      "commit": "49cbea493bc23f28c1bef064ee1be9e201eef900",
+      "maturity": "designing",
+      "repository": "https://github.com/362507574-sys/DFMH-ZhangDuoGuan",
+      "installMode": "bundled-or-pinned-download"
+    },
+    {
+      "repoName": "DFMH-ZengZhangZhanLueGuan",
+      "commit": "7319b80f182f965ac4c451b5e3351a09e8b89e57",
+      "maturity": "designing",
+      "repository": "https://github.com/362507574-sys/DFMH-ZengZhangZhanLueGuan",
+      "installMode": "bundled-or-pinned-download"
+    },
+    {
+      "repoName": "DFMH-ChengJiaoGuan",
+      "commit": "76819de8054952ceeb5018fbb52ca9babc0738dd",
+      "maturity": "designing",
+      "repository": "https://github.com/362507574-sys/DFMH-ChengJiaoGuan",
+      "installMode": "bundled-or-pinned-download"
+    },
+    {
+      "repoName": "DFMH-ZuZhiGuan",
+      "commit": "afbbe83e8197eb77eceb32b73d93f3a7583e6b26",
+      "maturity": "operational",
+      "repository": "https://github.com/362507574-sys/DFMH-ZuZhiGuan",
+      "installMode": "bundled-or-pinned-download"
+    },
+    {
+      "repoName": "DFMH-PinPaiGuan",
+      "commit": "a7c14bd87031b682d2d3c68bd1f73ceda01d0f66",
+      "maturity": "designing",
+      "repository": "https://github.com/362507574-sys/DFMH-PinPaiGuan",
+      "installMode": "bundled-or-pinned-download"
+    },
+    {
+      "repoName": "DFMH-HaiBaoSheJi",
+      "commit": "23d9111a56497f492853dfabc332124ca960631e",
+      "maturity": "operational",
+      "repository": "https://github.com/362507574-sys/DFMH-HaiBaoSheJi",
+      "installMode": "bundled-or-pinned-download"
+    },
+    {
+      "repoName": "DFMH-TaoBaoTaoTuSheJi",
+      "commit": "0501ea97de756f460cbee13004647964cdc14108",
+      "maturity": "pilot",
+      "repository": "https://github.com/362507574-sys/DFMH-TaoBaoTaoTuSheJi",
+      "installMode": "bundled-or-pinned-download"
+    }
+  ]
+}

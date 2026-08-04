@@ -1,0 +1,120 @@
+{
+  "id": "shoes",
+  "version": "shoes-v1",
+  "state": "pilot",
+  "subtypes": [
+    "performance_running",
+    "daily_running",
+    "lifestyle_sneaker",
+    "outdoor_trail",
+    "basketball",
+    "casual_leather"
+  ],
+  "applicableCategories": [
+    "运动鞋",
+    "跑鞋",
+    "休闲鞋",
+    "户外鞋",
+    "篮球鞋",
+    "皮鞋"
+  ],
+  "excludedCategories": [
+    "stroller"
+  ],
+  "sellingPointPriority": [
+    "purchase_outcome",
+    "core_performance",
+    "structure_proof",
+    "fit_and_scene",
+    "appearance_difference"
+  ],
+  "recommendedViews": [
+    "outer side hero",
+    "front three-quarter",
+    "top fit view",
+    "heel support view",
+    "outsole traction view",
+    "source-supported flex or material macro"
+  ],
+  "structureChecks": [
+    "toe_shape",
+    "vamp_panel_and_mesh_topology",
+    "eyelet_and_lace_count",
+    "logo_position_and_scale",
+    "collar_and_tongue_shape",
+    "heel_counter",
+    "midsole_layer_and_thickness",
+    "outsole_tread_pattern",
+    "left_right_pair_consistency"
+  ],
+  "homePageRoles": [
+    "hero",
+    "purchase_outcome",
+    "core_performance",
+    "fit_or_support",
+    "design_or_scene"
+  ],
+  "detailPageRoles": [
+    "brand_hero",
+    "purchase_problem",
+    "core_performance_proof",
+    "upper_or_fit_proof",
+    "midsole_or_support_proof",
+    "outsole_or_traction_proof",
+    "wearing_scene",
+    "multi_angle_identity",
+    "summary"
+  ],
+  "shotFamilies": [
+    "side_profile_hero",
+    "front_three_quarter_motion",
+    "top_fit_view",
+    "heel_support_view",
+    "outsole_ground_contact",
+    "on_foot_scene",
+    "borderless_material_macro",
+    "multi_angle_identity_board"
+  ],
+  "proofModes": [
+    "integrated product-and-proof composition",
+    "borderless macro band",
+    "ground-contact evidence",
+    "on-foot outcome scene",
+    "product-anchored callout",
+    "source-supported side-by-side angle"
+  ],
+  "microtextStrategy": [
+    "never_invent_product_microtext",
+    "avoid_legible_microtext_with_view_occlusion_or_depth_of_field_when_not_a_selling_point",
+    "use_source_material_deterministic_patch_when_exact_microtext_must_be_legible",
+    "redesign_the_shot_before_repeating_the_same_failed_text_repair"
+  ],
+  "forbiddenPatterns": [
+    "isolated_floating_detail_box",
+    "hard_rectangular_inset_in_empty_lower_half",
+    "same_side_product_on_consecutive_images",
+    "unsupported_deformation_or_flex",
+    "invented_outsole_pattern",
+    "invented_product_microtext",
+    "generic_similar_shoe_replacement",
+    "per_image_emperor_approval"
+  ],
+  "copyTone": [
+    "purchase outcome first",
+    "short and energetic",
+    "professional without unverifiable absolutes"
+  ],
+  "pageRhythm": [
+    "hero",
+    "problem",
+    "performance",
+    "fit",
+    "support",
+    "traction",
+    "scene",
+    "identity",
+    "summary"
+  ],
+  "plannerPromptPath": "templates/TAOBAO_SHOES_PAGE_PLANNER_PROMPT.md",
+  "imagePromptPath": "templates/TAOBAO_SHOES_IMAGE_PROMPT.md"
+}

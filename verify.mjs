@@ -1,0 +1,12 @@
+import { readFile, readdir, stat } from 'node:fs/promises';
+import path from 'node:path';
+const root=process.cwd();
+const market=JSON.parse(await readFile(path.join(root,'.agents','plugins','marketplace.json'),'utf8'));
+const plugin=JSON.parse(await readFile(path.join(root,'plugins','dfmh-zongkong','.codex-plugin','plugin.json'),'utf8'));
+const lock=JSON.parse(await readFile(path.join(root,'plugins','dfmh-zongkong','assets','dependency-lock.json'),'utf8'));
+if(market.name!=='dfmh'||market.plugins?.[0]?.name!=='dfmh-zongkong') throw new Error('marketplace invalid');
+if(plugin.name!=='dfmh-zongkong'||plugin.skills!=='./skills/') throw new Error('plugin invalid');
+if(lock.packages?.length!==7||!lock.packages.every(x=>/^[a-f0-9]{40}$/.test(x.commit))) throw new Error('dependency lock invalid');
+const skills=await readdir(path.join(root,'plugins','dfmh-zongkong','skills'));
+if(skills.length<4) throw new Error('skills missing');
+console.log('PASS: DFMH-ZongKong public package integrity');

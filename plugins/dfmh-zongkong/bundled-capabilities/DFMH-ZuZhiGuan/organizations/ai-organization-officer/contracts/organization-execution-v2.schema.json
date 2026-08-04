@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "ai-organization-officer.organization-execution.v2",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "enterpriseId", "businessProjectId", "taskId", "planVersion", "primarySkill", "status", "revision", "currentStageId", "checkpoint", "failureCounts", "createdAt", "updatedAt"],
+  "properties": {
+    "schemaVersion": {"const": 2},
+    "enterpriseId": {"type": "string"},
+    "businessProjectId": {"type": "string"},
+    "taskId": {"type": "string"},
+    "planVersion": {"type": "integer", "minimum": 1},
+    "primarySkill": {"enum": ["talent-allocation", "talent-development", "process-replication"]},
+    "status": {"enum": ["planning", "evidence", "executing", "validating", "debugging", "waiting_decision", "formalizing", "completed", "waiting_input", "waiting_collaboration", "blocked", "failed", "cancelled", "archived"]},
+    "revision": {"type": "integer", "minimum": 1},
+    "currentStageId": {"type": "string"},
+    "checkpoint": {"type": ["object", "null"]},
+    "failureCounts": {"type": "object"},
+    "createdAt": {"type": "string", "format": "date-time"},
+    "updatedAt": {"type": "string", "format": "date-time"}
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "dfmh-taobaotaotusheji",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "面向淘宝主图、详情图与多页面电商套图的策划、产品保真、生成和交付门禁。",
+  "scripts": {
+    "test": "node verify.mjs && node public-simulation.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

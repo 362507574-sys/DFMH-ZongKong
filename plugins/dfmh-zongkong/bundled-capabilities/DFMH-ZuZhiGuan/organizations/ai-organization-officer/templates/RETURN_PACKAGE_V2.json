@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 2,
+  "enterpriseId": "replace-enterprise-id",
+  "businessProjectId": "20260729-101-replace-business-project",
+  "taskId": "20260729-101-organization-runtime",
+  "status": "needs_decision",
+  "artifacts": [],
+  "quality": {"ok": false, "failures": ["decisionBoundaryReady"]},
+  "decisions": [{"decision": "是否批准候选方案", "owner": "enterprise-owner", "executed": false}],
+  "risks": [],
+  "limitations": [],
+  "nextAction": "wait-user-decision",
+  "resumeFrom": null
+}

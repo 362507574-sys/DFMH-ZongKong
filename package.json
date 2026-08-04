@@ -1,0 +1,9 @@
+{
+  "name": "dfmh-zongkong-distribution",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node verify.mjs && node public-install-simulation.mjs"
+  }
+}

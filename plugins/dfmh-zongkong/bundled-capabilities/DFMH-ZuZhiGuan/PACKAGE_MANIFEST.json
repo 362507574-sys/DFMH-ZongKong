@@ -1,0 +1,471 @@
+{
+  "schemaVersion": 1,
+  "repoName": "DFMH-ZuZhiGuan",
+  "organizationId": "ai-organization-officer",
+  "displayName": "AI组织官",
+  "status": "operational",
+  "acceptsFormalTasks": true,
+  "generatedAt": "2026-08-04T07:09:17.603Z",
+  "files": [
+    {
+      "path": ".dfmh-generated-package",
+      "bytes": 25,
+      "sha256": "fb70adb0684ee3e25c19af4b4b649747b0feceb9849d7b18156da22ced655fc6"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 102,
+      "sha256": "42e5ab13aad1238474461ddb8281ec5371596547ab340f141cd0c6f648e2a05e"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 2332,
+      "sha256": "c37e1e750cd96e3bb58c909a8dc1d9ae10eaa1053b624791c1f36321437e4a92"
+    },
+    {
+      "path": "control-center/registries/organization-output-standard.json",
+      "bytes": 1626,
+      "sha256": "8408e739cf6de58f24a148943f2084d7f2bdff2028a8fbb72c2a6e3f836f3e5b"
+    },
+    {
+      "path": "control-center/registries/organizations.json",
+      "bytes": 763,
+      "sha256": "854b9bc0250add3292be3e81e9dfd7714c485dc258550ad4712373dc39ad81b1"
+    },
+    {
+      "path": "examples/DELIVERABLE_CHECKLIST.md",
+      "bytes": 885,
+      "sha256": "9f6b2d24a8b84ddca398803b16d03c1248ae00150489d4bd0be92e9c7f0d2412"
+    },
+    {
+      "path": "examples/REQUEST.md",
+      "bytes": 1006,
+      "sha256": "d65c93bb5acf54bfe5c957984334cb60a64583944cc9ed97407f62cbd99af122"
+    },
+    {
+      "path": "LICENSE.md",
+      "bytes": 224,
+      "sha256": "d5ab9a05d49a7fbab5a91ba219466576506ecd5fa3ff15c88b46a36a1932fa74"
+    },
+    {
+      "path": "organizations/ai-organization-officer/AGENTS.md",
+      "bytes": 1618,
+      "sha256": "e7d5b7c778727ee594ef15444b31bb59c19b189cd5bdbf07f69510709dcb2401"
+    },
+    {
+      "path": "organizations/ai-organization-officer/CHANGELOG.md",
+      "bytes": 4799,
+      "sha256": "36c213c54383ca32f1844e47362860e203391c0c83007cec799ee0324c11a25e"
+    },
+    {
+      "path": "organizations/ai-organization-officer/config/organization.json",
+      "bytes": 883,
+      "sha256": "7900b36900f42a93f5f67cd1c5b080f80d25a55266febe30d8e65ce0c760a292"
+    },
+    {
+      "path": "organizations/ai-organization-officer/contracts/collaboration-request.schema.json",
+      "bytes": 1404,
+      "sha256": "6cf04ec6c0ea683c0b363a4e50f7accdb0ae666c0e07f1c34b0f4a53f2eb8715"
+    },
+    {
+      "path": "organizations/ai-organization-officer/contracts/collaboration-result.schema.json",
+      "bytes": 1181,
+      "sha256": "e2f19bc0b3e913e465561a7ecef150de3150c3183ad6cb28d583a6f542ec57c7"
+    },
+    {
+      "path": "organizations/ai-organization-officer/contracts/enterprise-profile.schema.json",
+      "bytes": 1068,
+      "sha256": "9fa82f63d894191e6717a3b618163423eb4e2f337aab9be6c5215d73350a4a84"
+    },
+    {
+      "path": "organizations/ai-organization-officer/contracts/organization-execution-v2.schema.json",
+      "bytes": 1243,
+      "sha256": "75c7ba7fdcf29c19550dbd1de4ae0de28fac7aa9f5b5b79bc553fa0a29e9381c"
+    },
+    {
+      "path": "organizations/ai-organization-officer/contracts/organization-invocation-v2.schema.json",
+      "bytes": 1500,
+      "sha256": "80c2dd218189996f8b15d7b94bc5562aa9f9c9f40f8cd27a5bfc2cbfddb4fa5c"
+    },
+    {
+      "path": "organizations/ai-organization-officer/contracts/organization-task.schema.json",
+      "bytes": 1421,
+      "sha256": "ce1f6877cc1e2823cade9f0f9bdced3f380ae5b566257b8f38fdb4072317dbcb"
+    },
+    {
+      "path": "organizations/ai-organization-officer/contracts/process-replication-candidate.schema.json",
+      "bytes": 1687,
+      "sha256": "236ed812608ea84a182ba301ad45c9ff6f7c47a3ea7f97b77ac88ebdd9bc25ee"
+    },
+    {
+      "path": "organizations/ai-organization-officer/contracts/return-package-v2.schema.json",
+      "bytes": 905,
+      "sha256": "6fff95de5cc28bfc1b042877534228fd46559d2fbd166b263abc2b0206584b60"
+    },
+    {
+      "path": "organizations/ai-organization-officer/contracts/talent-allocation-candidate.schema.json",
+      "bytes": 1526,
+      "sha256": "dfdb6758d642c72872632ccd8bceadf92f21e751566cc85a6598327de147a323"
+    },
+    {
+      "path": "organizations/ai-organization-officer/contracts/talent-development-candidate.schema.json",
+      "bytes": 1628,
+      "sha256": "062733690e0e22ca162512800ec83b86f3d0178ab81edc3848ebd573dcf2cfc7"
+    },
+    {
+      "path": "organizations/ai-organization-officer/contracts/upstream-change-request-v2.schema.json",
+      "bytes": 1033,
+      "sha256": "37ab4457237d63ad88ed6f5567f03d7dd1a4ca7f19f0da4dde76d5df15dbf329"
+    },
+    {
+      "path": "organizations/ai-organization-officer/DECISIONS.md",
+      "bytes": 4170,
+      "sha256": "c88831829f8f96ab7a11797fc50fc435319e5995edca88afba74cb0fbc1586bd"
+    },
+    {
+      "path": "organizations/ai-organization-officer/ENVIRONMENT.md",
+      "bytes": 424,
+      "sha256": "8be0ced88ef102ddc087d0e7661014c8dc0cada7cbd4158cc10fe26c30703076"
+    },
+    {
+      "path": "organizations/ai-organization-officer/integration/CONTROL_CENTER_HANDOFF.md",
+      "bytes": 1996,
+      "sha256": "021040b644eb9064563787645ca60078a19eeb7d5c967fcfed712cc6777796b2"
+    },
+    {
+      "path": "organizations/ai-organization-officer/integration/root-registration-candidate.json",
+      "bytes": 1149,
+      "sha256": "cd7986bb94b6441070eb12637edc218ec7a39f554904d13f49545ac8279f198c"
+    },
+    {
+      "path": "organizations/ai-organization-officer/ORGANIZATION_OVERVIEW.md",
+      "bytes": 1383,
+      "sha256": "9cd84c135489c677bbc81ade706ba66618a0bfb7e4cde93942412fec70dbb7a0"
+    },
+    {
+      "path": "organizations/ai-organization-officer/ORGANIZATION.md",
+      "bytes": 2100,
+      "sha256": "4e11bb18b7427f022251f3493d8716a6e8112faaa190cf062c2037a226707244"
+    },
+    {
+      "path": "organizations/ai-organization-officer/quality/organization-quality.json",
+      "bytes": 4653,
+      "sha256": "e8829ffe99162dc8781b0227a4fc5a3a34d11dbb2a263e715efb503a9a258282"
+    },
+    {
+      "path": "organizations/ai-organization-officer/scripts/collaboration_contract.mjs",
+      "bytes": 6172,
+      "sha256": "c52e318a3a17d0410473126a96df04440c8c25cef0dcc61fdf4f94a6fde249e4"
+    },
+    {
+      "path": "organizations/ai-organization-officer/scripts/enterprise_store.mjs",
+      "bytes": 7560,
+      "sha256": "d5a0f0db372bbe3928d7a17bd0a9024b6b449a59543810aca5c0c343adefc174"
+    },
+    {
+      "path": "organizations/ai-organization-officer/scripts/knowledge_preflight_adapter.mjs",
+      "bytes": 4099,
+      "sha256": "96a1fec3c5a422099a27204356050c2baec86ecc461201b30e6ad0fc74e2e0cf"
+    },
+    {
+      "path": "organizations/ai-organization-officer/scripts/organization_asset_promotion.mjs",
+      "bytes": 5853,
+      "sha256": "9085b89ab012a6485e41624fb49921c7b8cfcbe1ddb52fec448e5b32bc2c23dd"
+    },
+    {
+      "path": "organizations/ai-organization-officer/scripts/organization_chain_validator.mjs",
+      "bytes": 9588,
+      "sha256": "2b08c9564bb75cad912395e1ab9eb1ecfb356aa7dfa3fef40aceea736f8dc19b"
+    },
+    {
+      "path": "organizations/ai-organization-officer/scripts/organization_config.mjs",
+      "bytes": 3661,
+      "sha256": "193e5ed0598cf72422cc0026985020ce5ab191952eb896c1a493e1b01032d4ad"
+    },
+    {
+      "path": "organizations/ai-organization-officer/scripts/organization_debug_engine.mjs",
+      "bytes": 2029,
+      "sha256": "625f741335f1c7f2e58e34c0e99c733e716163e0e9daac89e4f6a79ad3991ed1"
+    },
+    {
+      "path": "organizations/ai-organization-officer/scripts/organization_evidence_engine.mjs",
+      "bytes": 1401,
+      "sha256": "2fb3e1e2644b7cad8645cbf300ec9adf9e712b7f4280e500d58e074659069773"
+    },
+    {
+      "path": "organizations/ai-organization-officer/scripts/organization_execution_planner.mjs",
+      "bytes": 2684,
+      "sha256": "e8b557f097957944cb5df459848f98a1f153c52778bb6a082736e7b5c7ce64d7"
+    },
+    {
+      "path": "organizations/ai-organization-officer/scripts/organization_execution_store.mjs",
+      "bytes": 5471,
+      "sha256": "af86650c4174233addd7153e2d59fb3af31635a4191aeee84c3c39f067267c56"
+    },
+    {
+      "path": "organizations/ai-organization-officer/scripts/organization_handoff_engine.mjs",
+      "bytes": 2451,
+      "sha256": "b1bebbccf8410550613cb1affa06dcae11c7208196e9b2dc2109400aab9e0865"
+    },
+    {
+      "path": "organizations/ai-organization-officer/scripts/organization_invocation_v2.mjs",
+      "bytes": 2893,
+      "sha256": "589c6004070ab0658cd9b3b9a38f9440d541321ed800b3234f4f84aa89e26ac8"
+    },
+    {
+      "path": "organizations/ai-organization-officer/scripts/organization_paths.mjs",
+      "bytes": 5040,
+      "sha256": "fea3258a69d1f06b0f38a80c40a0d94b7c52f9e0a63c115291e68a3b7c81f88b"
+    },
+    {
+      "path": "organizations/ai-organization-officer/scripts/organization_quality_engine.mjs",
+      "bytes": 1203,
+      "sha256": "b950216c69b7eec4e8708653dce010aa7fa1bd49960419da53ddcd2540fb218b"
+    },
+    {
+      "path": "organizations/ai-organization-officer/scripts/organization_return_engine.mjs",
+      "bytes": 1421,
+      "sha256": "0e762b736caa4e04f643fcaacd17bc8a551b6c946bb9d5486d1574341ec6ea0d"
+    },
+    {
+      "path": "organizations/ai-organization-officer/scripts/organization_self_check.mjs",
+      "bytes": 10271,
+      "sha256": "6e98d4a6ccef75884a0a9f49924466ecf994cbf83e58f082d0ed0d1b3a3565cf"
+    },
+    {
+      "path": "organizations/ai-organization-officer/scripts/organization_task_store.mjs",
+      "bytes": 10917,
+      "sha256": "0d3c0494a20c8e95a258133ba451fc97505bd6da32d7508e784479d0c6262e51"
+    },
+    {
+      "path": "organizations/ai-organization-officer/scripts/organization_v2_runtime.mjs",
+      "bytes": 5695,
+      "sha256": "77ee35a2bf125264f2a9e6402f03c00e68316bb6273896ca5169cd8da6629aaf"
+    },
+    {
+      "path": "organizations/ai-organization-officer/scripts/organization_v2_workspace.mjs",
+      "bytes": 2052,
+      "sha256": "0dc92d62f24a65700e22d23c14a611260384a9f5adda51df54c83c74f8e75b8a"
+    },
+    {
+      "path": "organizations/ai-organization-officer/scripts/process_replication_contract.mjs",
+      "bytes": 12756,
+      "sha256": "2778859f34f5b161662d999bb3bbff532a16db78be584e7c6f8ae48213ddf100"
+    },
+    {
+      "path": "organizations/ai-organization-officer/scripts/process_replication_gate.mjs",
+      "bytes": 3039,
+      "sha256": "260ec040d992b72be3354d8040aa5a2f92741ea9179cd9574231e05cd1a34678"
+    },
+    {
+      "path": "organizations/ai-organization-officer/scripts/strict_json.mjs",
+      "bytes": 4056,
+      "sha256": "3c734411f320d78d6e34e19ea33992a335cea15f98bccf4fa0baf72a8746c411"
+    },
+    {
+      "path": "organizations/ai-organization-officer/scripts/talent_allocation_contract.mjs",
+      "bytes": 5761,
+      "sha256": "7ad45bf6794452f47c8686f5c563cee45262a0a64d521f1ddac2105a85c0adae"
+    },
+    {
+      "path": "organizations/ai-organization-officer/scripts/talent_allocation_gate.mjs",
+      "bytes": 7265,
+      "sha256": "3f1d600f9b7c55aefdfabeff5e3618596d9283bcf0748c8e11fd6a0a7796a267"
+    },
+    {
+      "path": "organizations/ai-organization-officer/scripts/talent_development_contract.mjs",
+      "bytes": 8370,
+      "sha256": "86d4cd7838010cd186cca5eac0282bc5048de97d4e7ec99cf9219e18c23c0df4"
+    },
+    {
+      "path": "organizations/ai-organization-officer/scripts/talent_development_gate.mjs",
+      "bytes": 2603,
+      "sha256": "ca90f13ba187ca1ed060a731b735dcdffb3cdd2a8a8d2925275cfd9723e0c6c2"
+    },
+    {
+      "path": "organizations/ai-organization-officer/skills/process-replication/agents/openai.yaml",
+      "bytes": 393,
+      "sha256": "651cd3f8c565c5cb801c475b4bd11c87b8d077065f1b515001b26338c5ed6a29"
+    },
+    {
+      "path": "organizations/ai-organization-officer/skills/process-replication/SKILL.md",
+      "bytes": 11788,
+      "sha256": "001ac2dca8098152580a83ee8b6b3d213fe9b751d54025ce5c3ba36553ce4ade"
+    },
+    {
+      "path": "organizations/ai-organization-officer/skills/README.md",
+      "bytes": 684,
+      "sha256": "d929a43fa04b0c0422cd7310c55e305f0cc10690a2a9818ccd8e97e1271fb801"
+    },
+    {
+      "path": "organizations/ai-organization-officer/skills/talent-allocation/agents/openai.yaml",
+      "bytes": 330,
+      "sha256": "25329e5c40925ba8dbc909276e49eb80ba8625eec765f56f0421cf05b6feecc9"
+    },
+    {
+      "path": "organizations/ai-organization-officer/skills/talent-allocation/SKILL.md",
+      "bytes": 8330,
+      "sha256": "7651cdd991267dff82a8eebc7f3f65632023956d7cb41119d9f4a417aaca70c5"
+    },
+    {
+      "path": "organizations/ai-organization-officer/skills/talent-development/agents/openai.yaml",
+      "bytes": 351,
+      "sha256": "7a3a4ebc0af9ad548467e6d20c8c142c4e2e1d9591a16e013cce82908f2f3494"
+    },
+    {
+      "path": "organizations/ai-organization-officer/skills/talent-development/SKILL.md",
+      "bytes": 9371,
+      "sha256": "c58addba222f13f3ec00233709f9d90fd8d576ab192488a0b66be6e70a5b2ec4"
+    },
+    {
+      "path": "organizations/ai-organization-officer/templates/ENTERPRISE_ORGANIZATION_PROFILE.json",
+      "bytes": 736,
+      "sha256": "7a0c07b7df3b0776d660941d99f7c1ec53c5da7197318a7ee1550220c0e88108"
+    },
+    {
+      "path": "organizations/ai-organization-officer/templates/ORGANIZATION_EXECUTION_V2.json",
+      "bytes": 448,
+      "sha256": "965b28a09f121ad1ee446773d8cad5f2f15a885968e5ae7d8eb16ad61676e30b"
+    },
+    {
+      "path": "organizations/ai-organization-officer/templates/ORGANIZATION_INVOCATION_V2.json",
+      "bytes": 784,
+      "sha256": "b393b3bb6568050deb47be82b4470b229f71c8592baa571769428a5a3b0a2d9c"
+    },
+    {
+      "path": "organizations/ai-organization-officer/templates/ORGANIZATION_TASK.json",
+      "bytes": 847,
+      "sha256": "c90978f5e38b7a26fe2106f3217c413ee33eb8748596bdeb397b9b86256b4e33"
+    },
+    {
+      "path": "organizations/ai-organization-officer/templates/PROCESS_REPLICATION_CANDIDATE.json",
+      "bytes": 1264,
+      "sha256": "c134559edbc8c9f1c28f65d506cca143fc1d0dd7829c662b3f330b866b50262b"
+    },
+    {
+      "path": "organizations/ai-organization-officer/templates/RETURN_PACKAGE_V2.json",
+      "bytes": 500,
+      "sha256": "518dac2edd39128b9290e545f32e6ade54d2db484812355b196979ff5d205e6d"
+    },
+    {
+      "path": "organizations/ai-organization-officer/templates/TALENT_ALLOCATION_CANDIDATE.json",
+      "bytes": 919,
+      "sha256": "b2e7d92d4dbe9bfc9d3965b4b839b0cba3744a6da105ace808ab1ce7c6f49e60"
+    },
+    {
+      "path": "organizations/ai-organization-officer/templates/TALENT_DEVELOPMENT_CANDIDATE.json",
+      "bytes": 562,
+      "sha256": "0449a4c00ecca3b515498379a882930287233e6e3023a2a0dbdcde38be3b3d1d"
+    },
+    {
+      "path": "organizations/ai-organization-officer/templates/UPSTREAM_CHANGE_REQUEST_V2.json",
+      "bytes": 715,
+      "sha256": "5a72d2f8067fd3f7ef4821555fd1bdc2ec0daaea5470d9d5ffb6afa6d9eedfa9"
+    },
+    {
+      "path": "organizations/ai-organization-officer/TROUBLESHOOTING.md",
+      "bytes": 866,
+      "sha256": "a42135cc1bbac3831fad70cfcde16c231a96ea4148d9177ee96c2a1d6b2e8c11"
+    },
+    {
+      "path": "organizations/ai-organization-officer/USER_GUIDE.md",
+      "bytes": 1257,
+      "sha256": "bbcc91d96f827c896b1394fa8226356b23b2703ae95cf2433650df74b11d7e9e"
+    },
+    {
+      "path": "organizations/ai-organization-officer/WORKFLOWS.md",
+      "bytes": 1982,
+      "sha256": "d0504c0d948c365981db77106655bd1bd060cdb090774c43a834ac5cc4c75af8"
+    },
+    {
+      "path": "organizations/ai-organization-officer/workflows/PROCESS_REPLICATION_PILOT.md",
+      "bytes": 5568,
+      "sha256": "37191e9335612325f32c7dcf56d4186db90f86260d3fd7d580f0cd42330c62e1"
+    },
+    {
+      "path": "organizations/ai-organization-officer/workflows/TALENT_ALLOCATION_PILOT.md",
+      "bytes": 3656,
+      "sha256": "d5645c577ac9c1ad57ce9e6c7b0eff9ef7dfb3f51da5bcffad8ee671f23f1a8f"
+    },
+    {
+      "path": "organizations/ai-organization-officer/workflows/TALENT_DEVELOPMENT_PILOT.md",
+      "bytes": 4014,
+      "sha256": "cf97eadb81f076a6f749ba5c60af75bfc62bb6f287653e5ee4540097de9d4e40"
+    },
+    {
+      "path": "package.json",
+      "bytes": 316,
+      "sha256": "505f1f2115400dd01dc7378fe449f6800dabd73b589adbfd49cf07b50ad8deb8"
+    },
+    {
+      "path": "PUBLIC_PACKAGE_CONTRACT.json",
+      "bytes": 1383,
+      "sha256": "e17b8319df63ca5981e57dadf4e8cae00601a01c3b51f2fa637a604719fd2b7f"
+    },
+    {
+      "path": "public-simulation.mjs",
+      "bytes": 1907,
+      "sha256": "90db340358da7e3591d35223561211df1416589a804942cf0357160bbecbf426"
+    },
+    {
+      "path": "public-skills/registry.json",
+      "bytes": 876,
+      "sha256": "d7a731ef0190ae531517d837af1fac4518f903641a24f254a69f886bd03b56ae"
+    },
+    {
+      "path": "QUICKSTART.md",
+      "bytes": 1104,
+      "sha256": "02c5cbb31b47bd2fb235cd08d38d6681e207a03619d0efddc3e25aa16a0747c9"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2620,
+      "sha256": "b6a437f8e9faf4cab569bf9cafcec2b674456c7ea47fb38238813a367f57f228"
+    },
+    {
+      "path": "scripts/control-center/project_contract.mjs",
+      "bytes": 7519,
+      "sha256": "01da67cc0a30d3b90dcbec1e76f0488dc2f41f566032ad71799acb5af1f70f8e"
+    },
+    {
+      "path": "scripts/control-center/project_paths.mjs",
+      "bytes": 2589,
+      "sha256": "c7bae7274e8ea8320b0360c9ec7291a374f6476c459b4e496e3674bcb3cea66d"
+    },
+    {
+      "path": "scripts/feishu-commander/atomic_store.mjs",
+      "bytes": 5496,
+      "sha256": "3f79001a0ddac86e870216620b953c084997e1c8168f77918b49c04713365d89"
+    },
+    {
+      "path": "SECURITY.md",
+      "bytes": 297,
+      "sha256": "a39f5f1f6344ce5d61425fb3cec694324d1e83a7083bd7ba35fc10b12ef8ab8d"
+    },
+    {
+      "path": "shared/BROWSER_CONTINUOUS_ACTION_STANDARD.md",
+      "bytes": 4939,
+      "sha256": "1f93982959b4456ec8397dca0faedb7d89157ab788bd0fb656691d1a0dca9032"
+    },
+    {
+      "path": "shared/FEISHU_KNOWLEDGE_PREFLIGHT_STANDARD.md",
+      "bytes": 3156,
+      "sha256": "0c80a0b482288d1c1c6a90b441980940f979158291349cc40d3047d697785893"
+    },
+    {
+      "path": "shared/IMAGE_GENERATION_CHANNEL_STANDARD.md",
+      "bytes": 4087,
+      "sha256": "36ecf21047c8bb516b669dd444f500ffc4de880221d1498a9afc3b0147a25502"
+    },
+    {
+      "path": "shared/PRODUCT_ASSET_FIDELITY_STANDARD.md",
+      "bytes": 2692,
+      "sha256": "9935d8ec802cf5f7d0e73be51cc85b58dbe0892b8c7622fed588181f30033e41"
+    },
+    {
+      "path": "verify.mjs",
+      "bytes": 847,
+      "sha256": "008a8abc5a3208130a8aad55ebf8022238144392e3de2765b939cea061945c5f"
+    }
+  ]
+}

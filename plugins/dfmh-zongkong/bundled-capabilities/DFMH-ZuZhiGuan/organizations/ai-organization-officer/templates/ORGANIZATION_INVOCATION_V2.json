@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 2,
+  "enterpriseId": "replace-enterprise-id",
+  "businessProjectId": "replace-business-project-id",
+  "taskId": "20260729-101-organization-runtime",
+  "primaryOrganization": "ai-organization-officer",
+  "primarySkill": "talent-allocation",
+  "mode": "single-skill",
+  "goal": "建立一个岗位的人才配置体系",
+  "authorizedScope": ["replace-role-id"],
+  "allowedCapabilityChain": ["talent-allocation"],
+  "allowedCollaborations": [],
+  "allowedPublicSkills": [],
+  "permissionPackage": {
+    "enterpriseId": "replace-enterprise-id",
+    "allowedScopes": ["organization.read", "organization.draft.write"],
+    "deniedScopes": []
+  },
+  "decisionBoundary": ["高影响人事决定由使用者完成"],
+  "pinnedInputs": [],
+  "continuationContext": null
+}

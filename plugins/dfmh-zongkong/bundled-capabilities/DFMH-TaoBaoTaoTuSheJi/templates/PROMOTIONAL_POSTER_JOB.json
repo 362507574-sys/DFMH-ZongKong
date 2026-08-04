@@ -1,0 +1,278 @@
+{
+  "schemaVersion": "1.0",
+  "jobId": "",
+  "originThreadMode": "test",
+  "status": "needs_brief",
+  "brief": {
+    "taskType": "general_poster",
+    "theme": "",
+    "purpose": "",
+    "channels": [],
+    "audience": "",
+    "mandatoryCopy": [],
+    "editableCopyPolicy": "",
+    "assets": [],
+    "style": "",
+    "colors": "",
+    "forbidden": [],
+    "size": "",
+    "outputFormat": "PNG",
+    "deadline": "",
+    "missing": [
+      "purpose",
+      "channels",
+      "audience",
+      "mandatoryCopy",
+      "editableCopyPolicy",
+      "assets",
+      "style",
+      "colors",
+      "forbidden",
+      "size",
+      "deadline"
+    ],
+    "assumptions": [],
+    "confirmed": false,
+    "confirmedAt": "",
+    "confirmationStatement": ""
+  },
+  "deliveryProfile": {
+    "platform": "generic_poster",
+    "contentMode": "single_poster",
+    "aspectRatio": "",
+    "mobileFirst": false,
+    "safeArea": "",
+    "profilePath": "skills/creating-promotional-posters/references/PLATFORM_PROFILES.md",
+    "profileVersion": "V1",
+    "profileSha256": ""
+  },
+  "campaignIntent": {
+    "primary": "general_campaign",
+    "secondary": "none",
+    "splitRequired": false,
+    "splitReason": "single_primary_action",
+    "deliveryOrder": [
+      "general_campaign"
+    ],
+    "primaryAction": "",
+    "companionMessageRequired": false,
+    "candidateRoles": [
+      "general_campaign"
+    ]
+  },
+  "categoryProfile": {
+    "id": "general",
+    "adapterPath": "skills/creating-promotional-posters/references/CATEGORY_ADAPTERS.md",
+    "adapterVersion": "V1",
+    "adapterSha256": "",
+    "humanSubject": "none",
+    "safetyProfile": "general_commercial_v1",
+    "fidelityFocus": [],
+    "confirmedDirectionChange": false
+  },
+  "productPoster": {
+    "required": false,
+    "campaignStage": "not_applicable",
+    "usageScenarioDecision": "not_applicable",
+    "referencePolicy": "not_applicable",
+    "variantPolicy": {
+      "mode": "single",
+      "contentLocked": false,
+      "contentContract": [],
+      "contentContractHash": "",
+      "allowedDifferences": []
+    },
+    "productSource": {
+      "required": false,
+      "assets": [],
+      "identityLock": {
+        "recordPath": "",
+        "recordSha256": "",
+        "confirmed": false,
+        "immutableComponents": [],
+        "connectionTopology": [],
+        "relativeGeometry": [],
+        "appearanceTraits": [],
+        "visibleViewBoundary": [],
+        "allowedVariations": [],
+        "forbiddenVariations": []
+      },
+      "currentBinding": {
+        "jobId": "",
+        "version": "V1",
+        "method": "ChatGPT web via QQ Browser",
+        "referenceAssetIds": [],
+        "referenceSha256s": [],
+        "status": "not_required"
+      }
+    },
+    "claims": []
+  },
+  "assetTransfer": {
+    "required": false,
+    "assetPath": "",
+    "expectedSha256": "",
+    "referenceAssetId": "",
+    "bindingJobId": "",
+    "bindingVersion": "V1",
+    "bindingMethod": "ChatGPT web via QQ Browser",
+    "destination": "ChatGPT web via QQ Browser",
+    "authorizationConfirmed": false,
+    "authorizationStatement": "",
+    "authorizationAt": "",
+    "method": "",
+    "clipboardPrepared": false,
+    "thumbnailVerified": false,
+    "verifiedAssetName": "",
+    "verifiedAt": "",
+    "pathTextEntered": false,
+    "status": "not_required",
+    "failureReason": ""
+  },
+  "designTranslation": {
+    "framework": {
+      "id": "PROMOTIONAL_POSTER_PROMPT_V1",
+      "version": "V4",
+      "path": "templates/PROMOTIONAL_POSTER_PROMPT_V1.md",
+      "sha256": ""
+    },
+    "riskLevel": "high_aesthetic_uncertainty",
+    "visualDNA": {
+      "referenceRequired": false,
+      "referenceAssetIds": [],
+      "referenceAssets": [],
+      "composition": "",
+      "environment": "",
+      "lighting": "",
+      "palette": "",
+      "typography": "",
+      "texture": "",
+      "whitespace": "",
+      "avoidPatterns": []
+    },
+    "directionSelection": {
+      "mode": "three_direction_preselection",
+      "options": [],
+      "selectedId": "",
+      "selectedBy": "",
+      "selectionStatement": "",
+      "selectedAt": ""
+    },
+    "promptBuild": {
+      "version": "V1",
+      "path": "",
+      "sha256": "",
+      "frameworkApplied": false
+    }
+  },
+  "generation": {
+    "route": {
+      "currentMethod": "ChatGPT web via QQ Browser",
+      "currentVersion": "V1",
+      "authorizationType": "project_default",
+      "authorizationJobId": "",
+      "authorizationVersion": "V1",
+      "authorizationStatement": "项目默认正式生图通道",
+      "authorizedAt": "project_rule",
+      "fallback": {
+        "method": "",
+        "changesConfirmedDirection": false,
+        "confirmed": false,
+        "confirmationStatement": "",
+        "confirmedAt": ""
+      }
+    },
+    "series": {
+      "requestedOutputs": 1,
+      "requestMode": "sequential_single",
+      "outputsPerRequest": 1,
+      "currentIndex": 1,
+      "anchorStrategy": "first_approved_anchor",
+      "anchorStatus": "not_required",
+      "continuityLock": [],
+      "maxAttemptsPerOutput": 2,
+      "promptLoadPolicy": "single_frame_single_composition_single_pose",
+      "safetyBlockPolicy": "compact_safety_block"
+    },
+    "method": "",
+    "model": "",
+    "sourceReference": "",
+    "originalDownloadPath": "",
+    "paid": false,
+    "refusals": []
+  },
+  "candidate": {
+    "role": "general_campaign",
+    "path": "",
+    "acceptancePath": "",
+    "version": "V1",
+    "sha256": "",
+    "bytes": 0,
+    "width": 0,
+    "height": 0,
+    "dpi": 0,
+    "format": "PNG",
+    "quality": {
+      "fileIntegrity": false,
+      "dimensionsChecked": false,
+      "textChecked": false,
+      "visualChecked": false,
+      "qrChecked": false,
+      "aiArtifactsChecked": false,
+      "productStructureChecked": false,
+      "claimProvenanceChecked": false,
+      "claimVisualMappingChecked": false,
+      "variantContentConsistencyChecked": false,
+      "usageScenarioChecked": false
+    },
+    "productEvidence": {
+      "mapping": [],
+      "reviewStatement": "",
+      "fidelityReview": {
+        "referenceAssetIds": [],
+        "structureCompared": false,
+        "appearanceCompared": false,
+        "unsupportedViewsAbsent": false,
+        "differences": [],
+        "passed": false,
+        "reviewStatement": ""
+      }
+    },
+    "designReview": {
+      "reviewPath": "",
+      "reviewSha256": "",
+      "referenceCompared": false,
+      "visualDNAAligned": false,
+      "antiAIPatternsAbsent": false,
+      "commercialAestheticChecked": false,
+      "unresolvedDifferences": [],
+      "passed": false
+    }
+  },
+  "candidateSet": {
+    "required": false,
+    "expectedRoles": [],
+    "entries": [],
+    "pairReview": {
+      "reviewPath": "",
+      "reviewSha256": "",
+      "visualConsistencyChecked": false,
+      "factConsistencyChecked": false,
+      "distinctPrimaryActionsChecked": false,
+      "passed": false
+    }
+  },
+  "approval": {
+    "approved": false,
+    "statement": "",
+    "approvedAt": ""
+  },
+  "promotion": {
+    "outputPath": "",
+    "outputItems": [],
+    "promoted": false,
+    "promotedAt": "",
+    "promotedBy": ""
+  },
+  "history": []
+}
