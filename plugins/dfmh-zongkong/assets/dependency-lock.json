@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-04T07:15:23.225Z",
+  "generatedAt": "2026-08-04T07:29:50.496Z",
   "packages": [
     {
       "repoName": "DFMH-ZhangDuoGuan",
@@ -10,7 +10,7 @@
       "installMode": "bundled-or-pinned-download",
       "alias": "zg",
       "archivePath": "assets/capability-archives/zg.json.gz",
-      "archiveSha256": "d22baf8b7bd0a637f0d47469fb4bf80c83672a07a93a929423c709476c96db55"
+      "archiveSha256": "6d496bceb0edec45eeb5e02d0d71825dda0b4616bf8aa731769ececbaa0a564e"
     },
     {
       "repoName": "DFMH-ZengZhangZhanLueGuan",
@@ -20,7 +20,7 @@
       "installMode": "bundled-or-pinned-download",
       "alias": "zz",
       "archivePath": "assets/capability-archives/zz.json.gz",
-      "archiveSha256": "e86b7203d1731454e6352f0287251dc206513679f54aab1cab4387a6c27976bb"
+      "archiveSha256": "12c2374e442a47de2db737d99beea8ae9b660f4c38099f22a151ebc51add22d1"
     },
     {
       "repoName": "DFMH-ChengJiaoGuan",
@@ -30,7 +30,7 @@
       "installMode": "bundled-or-pinned-download",
       "alias": "cj",
       "archivePath": "assets/capability-archives/cj.json.gz",
-      "archiveSha256": "9c2ae297a6c2b9a12b050c3fb220feb9a4e17ed106fa58137d6f1c406a0ee0b1"
+      "archiveSha256": "c0e901b665c7b440ddcfc15ff08f71a0f278afda3dcca18a6444e56c617c224c"
     },
     {
       "repoName": "DFMH-ZuZhiGuan",
@@ -40,7 +40,7 @@
       "installMode": "bundled-or-pinned-download",
       "alias": "zd",
       "archivePath": "assets/capability-archives/zd.json.gz",
-      "archiveSha256": "0bd672153d50f4c5845318c7b8e041d24c7aa554f606c4c09660238993946373"
+      "archiveSha256": "ab932362ec596571d0dcfa00f669ae034ba9167337050a5fae02d5c2deab5a4a"
     },
     {
       "repoName": "DFMH-PinPaiGuan",
@@ -50,7 +50,7 @@
       "installMode": "bundled-or-pinned-download",
       "alias": "pp",
       "archivePath": "assets/capability-archives/pp.json.gz",
-      "archiveSha256": "e368d575bdb5397fe89491c0f2b397c2efcbbd14057f41b7bff9c7da805d63eb"
+      "archiveSha256": "d677127999f9ec645752d6d107e3dcf820ed72a45a2de4a3389d0d986c70daed"
     },
     {
       "repoName": "DFMH-HaiBaoSheJi",
@@ -60,7 +60,7 @@
       "installMode": "bundled-or-pinned-download",
       "alias": "hb",
       "archivePath": "assets/capability-archives/hb.json.gz",
-      "archiveSha256": "64b78db93478e326e0d03b241521fa623535352bd6538a3f915f2a12f14ca7ba"
+      "archiveSha256": "0b4110bf3c2c3d385eafd091b8d80048701ed468f8bfae53157fcf7580733316"
     },
     {
       "repoName": "DFMH-TaoBaoTaoTuSheJi",
@@ -70,7 +70,7 @@
       "installMode": "bundled-or-pinned-download",
       "alias": "tb",
       "archivePath": "assets/capability-archives/tb.json.gz",
-      "archiveSha256": "948eb2286e5a4e25ecac12e08a5fbfd0f4a34e24cbb7951ae41f9771b7f8e4b1"
+      "archiveSha256": "6d010d855d343370d9bb1b7d6e29b7cd09a706121f8b40a4d8f95de8d23b844d"
     }
   ]
 }

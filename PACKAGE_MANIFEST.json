@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-04T07:15:23.225Z",
+  "generatedAt": "2026-08-04T07:29:50.496Z",
   "files": [
     {
       "path": ".agents/plugins/marketplace.json",
@@ -10,52 +10,52 @@
     {
       "path": "package.json",
       "bytes": 192,
-      "sha256": "eb70c9d8a69953ff855e1b0345a5ebcd2f9e78b928f2c0f4f7d06199e1f21d43"
+      "sha256": "a208794a2ddbf2a5879cd5fc6cb0bc6e1ce337fb179c24da4b2803b8410c4435"
     },
     {
       "path": "plugins/dfmh-zongkong/.codex-plugin/plugin.json",
       "bytes": 994,
-      "sha256": "d55ee35d9c9692a4905b54b6515a089f29ff1a56d7be8370e0325c40b603f1d8"
+      "sha256": "a5cd39fd1ecf94b223197f6865ab278df2e8143372b657440375cc62fb1282cb"
     },
     {
       "path": "plugins/dfmh-zongkong/assets/capability-archives/cj.json.gz",
       "bytes": 94950,
-      "sha256": "9c2ae297a6c2b9a12b050c3fb220feb9a4e17ed106fa58137d6f1c406a0ee0b1"
+      "sha256": "c0e901b665c7b440ddcfc15ff08f71a0f278afda3dcca18a6444e56c617c224c"
     },
     {
       "path": "plugins/dfmh-zongkong/assets/capability-archives/hb.json.gz",
-      "bytes": 150814,
-      "sha256": "64b78db93478e326e0d03b241521fa623535352bd6538a3f915f2a12f14ca7ba"
+      "bytes": 150817,
+      "sha256": "0b4110bf3c2c3d385eafd091b8d80048701ed468f8bfae53157fcf7580733316"
     },
     {
       "path": "plugins/dfmh-zongkong/assets/capability-archives/pp.json.gz",
-      "bytes": 327165,
-      "sha256": "e368d575bdb5397fe89491c0f2b397c2efcbbd14057f41b7bff9c7da805d63eb"
+      "bytes": 327160,
+      "sha256": "d677127999f9ec645752d6d107e3dcf820ed72a45a2de4a3389d0d986c70daed"
     },
     {
       "path": "plugins/dfmh-zongkong/assets/capability-archives/tb.json.gz",
-      "bytes": 307525,
-      "sha256": "948eb2286e5a4e25ecac12e08a5fbfd0f4a34e24cbb7951ae41f9771b7f8e4b1"
+      "bytes": 307516,
+      "sha256": "6d010d855d343370d9bb1b7d6e29b7cd09a706121f8b40a4d8f95de8d23b844d"
     },
     {
       "path": "plugins/dfmh-zongkong/assets/capability-archives/zd.json.gz",
-      "bytes": 131104,
-      "sha256": "0bd672153d50f4c5845318c7b8e041d24c7aa554f606c4c09660238993946373"
+      "bytes": 131115,
+      "sha256": "ab932362ec596571d0dcfa00f669ae034ba9167337050a5fae02d5c2deab5a4a"
     },
     {
       "path": "plugins/dfmh-zongkong/assets/capability-archives/zg.json.gz",
-      "bytes": 178668,
-      "sha256": "d22baf8b7bd0a637f0d47469fb4bf80c83672a07a93a929423c709476c96db55"
+      "bytes": 178671,
+      "sha256": "6d496bceb0edec45eeb5e02d0d71825dda0b4616bf8aa731769ececbaa0a564e"
     },
     {
       "path": "plugins/dfmh-zongkong/assets/capability-archives/zz.json.gz",
-      "bytes": 352836,
-      "sha256": "e86b7203d1731454e6352f0287251dc206513679f54aab1cab4387a6c27976bb"
+      "bytes": 352830,
+      "sha256": "12c2374e442a47de2db737d99beea8ae9b660f4c38099f22a151ebc51add22d1"
     },
     {
       "path": "plugins/dfmh-zongkong/assets/dependency-lock.json",
       "bytes": 3191,
-      "sha256": "494b08d6aec2adc9344271256fb910876a10e2b0934914710d2fb1442b40008d"
+      "sha256": "2a0aad3d64a6e9b9e347c2ea96cc8bd49fe00d1342d4e87436925badceb0ec68"
     },
     {
       "path": "plugins/dfmh-zongkong/config/config.example.json",
@@ -74,8 +74,8 @@
     },
     {
       "path": "plugins/dfmh-zongkong/scripts/bootstrap.mjs",
-      "bytes": 4705,
-      "sha256": "523075c6c608911bb8654c6d72ac7cf1ccad0ecea1c0388121b8968fd69db31d"
+      "bytes": 5277,
+      "sha256": "b37bad43f0142c413f5c25f6876b607456e133007b9b094becdb64665f83bcda"
     },
     {
       "path": "plugins/dfmh-zongkong/skills/dfmh-brand-officer-brand-communication/SKILL.md",

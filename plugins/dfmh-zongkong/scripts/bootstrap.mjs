@@ -6,7 +6,7 @@ import { gunzipSync } from 'node:zlib';
 
 const pluginRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 
-export async function initializeDfmh({ codexHome = process.env.CODEX_HOME, now = () => new Date().toISOString(), failAt = '' } = {}) {
+export async function initializeDfmh({ codexHome = process.env.CODEX_HOME, now = () => new Date().toISOString(), failAt = '', renameOperation = rename, sleep = delay } = {}) {
   if (typeof codexHome !== 'string' || !codexHome.trim()) throw new TypeError('codexHome is required');
   const home = path.resolve(codexHome);
   await mkdir(home, { recursive: true });
@@ -27,7 +27,7 @@ export async function initializeDfmh({ codexHome = process.env.CODEX_HOME, now =
     const state = {
       schemaVersion: 1,
       status: 'installed',
-      version: '1.0.1',
+      version: '1.0.2',
       installedAt: now(),
       installCount: 1,
       capabilityCount: lock.packages.length,
@@ -45,11 +45,24 @@ export async function initializeDfmh({ codexHome = process.env.CODEX_HOME, now =
     await writeJson(path.join(stage, 'secrets.local.json'), {});
     await writeJson(path.join(stage, 'state.json'), state);
     if (failAt === 'before-commit') throw new Error('simulated initialization failure');
-    await rename(stage, target);
+    await commitStage({ stage, target, renameOperation, sleep });
     return Object.freeze({ status: 'installed', feishu: 'not_configured', created: true, runtimeRoot: target });
   } catch (error) {
     await rm(stage, { recursive: true, force: true });
     throw error;
+  }
+}
+
+async function commitStage({ stage, target, renameOperation, sleep }) {
+  const transientCodes = new Set(['EPERM', 'EBUSY', 'EACCES']);
+  for (let attempt = 1; attempt <= 5; attempt++) {
+    try {
+      await renameOperation(stage, target);
+      return;
+    } catch (error) {
+      if (!transientCodes.has(error?.code) || attempt === 5) throw error;
+      await sleep(50 * attempt);
+    }
   }
 }
 
@@ -84,3 +97,4 @@ async function exists(filePath) {
   catch (error) { if (error?.code === 'ENOENT') return false; throw error; }
 }
 function sha256(value) { return createHash('sha256').update(value).digest('hex'); }
+function delay(milliseconds) { return new Promise((resolve) => setTimeout(resolve, milliseconds)); }
