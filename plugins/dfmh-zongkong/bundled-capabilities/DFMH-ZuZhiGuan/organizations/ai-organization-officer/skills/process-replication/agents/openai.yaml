@@ -1,4 +1,0 @@
-interface:
-  display_name: "AI组织官·流程复制"
-  short_description: "流程诊断、SOP、知识库、工资考勤与组织复制"
-  default_prompt: "使用流程复制Skill处理当前企业任务；先绑定企业、项目、权限、知识凭证和两项上游正式资产，再形成可试点、可审计、非覆盖的流程系统，高风险动作交由使用者最终决定。"

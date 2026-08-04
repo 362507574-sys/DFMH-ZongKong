@@ -1,4 +1,0 @@
-interface:
-  display_name: "AI组织官·人才配置"
-  short_description: "组织诊断、岗位人才、招聘绩效与组织调整候选"
-  default_prompt: "使用人才配置Skill处理当前企业任务；先核对企业、权限和知识前置，再形成可追溯候选，重大人事事项交由使用者最终决定。"

@@ -1,4 +1,0 @@
-interface:
-  display_name: "AI组织官·人才培养"
-  short_description: "岗位能力、培训实战、评估认证与成长路径"
-  default_prompt: "使用人才培养Skill处理当前企业任务；先绑定已批准岗位资产并完成知识前置，再形成可验证培养体系，所有高影响人员事项交由使用者最终决定。"

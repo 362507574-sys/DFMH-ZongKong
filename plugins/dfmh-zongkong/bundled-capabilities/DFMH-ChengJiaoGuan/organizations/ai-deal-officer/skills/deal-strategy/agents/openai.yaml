@@ -1,4 +1,0 @@
-interface:
-  display_name: "AI成交官·成交策略"
-  short_description: "沟通策略、价值证据、异议处理与成交路径"
-  default_prompt: "使用AI成交策略Skill处理当前企业任务；绑定已验证客户洞察，以证据形成价值和异议策略，并保留暂停、不成交及客户自主决定出口。"

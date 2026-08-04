@@ -1,4 +1,0 @@
-interface:
-  display_name: "AI成交官·客户洞察"
-  short_description: "客户画像、购买动机、成交阶段与核心顾虑"
-  default_prompt: "使用AI客户洞察Skill处理当前企业任务；先核对企业、授权和知识前置，再形成逐项有证据、尊重客户自主决定的洞察候选。"

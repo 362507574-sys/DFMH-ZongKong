@@ -1,4 +1,0 @@
-interface:
-  display_name: "普通宣传海报完整链路"
-  short_description: "通过需求确认、参考审美翻译和验收门禁完成可发布海报"
-  default_prompt: "Use $creating-promotional-posters to handle this promotional poster request safely."
