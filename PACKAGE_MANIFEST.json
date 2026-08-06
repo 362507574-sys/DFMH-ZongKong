@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-04T07:29:50.496Z",
+  "generatedAt": "2026-08-06T01:31:05.010Z",
   "files": [
     {
       "path": ".agents/plugins/marketplace.json",
@@ -19,43 +19,43 @@
     },
     {
       "path": "plugins/dfmh-zongkong/assets/capability-archives/cj.json.gz",
-      "bytes": 94950,
-      "sha256": "c0e901b665c7b440ddcfc15ff08f71a0f278afda3dcca18a6444e56c617c224c"
+      "bytes": 102322,
+      "sha256": "878b898f4af936e50947469a84e43708584763c766997b76128e1a82ceabeeaf"
     },
     {
       "path": "plugins/dfmh-zongkong/assets/capability-archives/hb.json.gz",
-      "bytes": 150817,
-      "sha256": "0b4110bf3c2c3d385eafd091b8d80048701ed468f8bfae53157fcf7580733316"
+      "bytes": 150818,
+      "sha256": "a2669ff6936861c9cf931a1d5d1726a163f88e75f725b84066301dad96bd337a"
     },
     {
       "path": "plugins/dfmh-zongkong/assets/capability-archives/pp.json.gz",
-      "bytes": 327160,
-      "sha256": "d677127999f9ec645752d6d107e3dcf820ed72a45a2de4a3389d0d986c70daed"
+      "bytes": 335261,
+      "sha256": "53b42d05bd59d4ed0334ead290517b9218d63645716a9ef858d1ffe49daa4d70"
     },
     {
       "path": "plugins/dfmh-zongkong/assets/capability-archives/tb.json.gz",
-      "bytes": 307516,
-      "sha256": "6d010d855d343370d9bb1b7d6e29b7cd09a706121f8b40a4d8f95de8d23b844d"
+      "bytes": 307528,
+      "sha256": "d347d341a1f89daeb13112225f0b9f5cf80af5b749f491e35195dd782d132567"
     },
     {
       "path": "plugins/dfmh-zongkong/assets/capability-archives/zd.json.gz",
-      "bytes": 131115,
-      "sha256": "ab932362ec596571d0dcfa00f669ae034ba9167337050a5fae02d5c2deab5a4a"
+      "bytes": 138390,
+      "sha256": "6814fa39080d38c96cd861ab013a37d6872280cab384e842e18c331cba152eaa"
     },
     {
       "path": "plugins/dfmh-zongkong/assets/capability-archives/zg.json.gz",
-      "bytes": 178671,
-      "sha256": "6d496bceb0edec45eeb5e02d0d71825dda0b4616bf8aa731769ececbaa0a564e"
+      "bytes": 187369,
+      "sha256": "26e1719ad8f016c38eac79660d3a3875736254f856519daef90ca22907894836"
     },
     {
       "path": "plugins/dfmh-zongkong/assets/capability-archives/zz.json.gz",
-      "bytes": 352830,
-      "sha256": "12c2374e442a47de2db737d99beea8ae9b660f4c38099f22a151ebc51add22d1"
+      "bytes": 368223,
+      "sha256": "31349e9f7a452dcf7b64d9773e13fa4a0d6f73c1fa0f7f8e11d28f315143dfbd"
     },
     {
       "path": "plugins/dfmh-zongkong/assets/dependency-lock.json",
       "bytes": 3191,
-      "sha256": "2a0aad3d64a6e9b9e347c2ea96cc8bd49fe00d1342d4e87436925badceb0ec68"
+      "sha256": "2a4900cc58cf7059d93726230aeb23ca677416bb1dae9c41c5daf38cf0a2e2b9"
     },
     {
       "path": "plugins/dfmh-zongkong/config/config.example.json",
