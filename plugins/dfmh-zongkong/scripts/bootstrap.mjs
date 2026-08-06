@@ -1,5 +1,6 @@
 import { createHash } from 'node:crypto';
 import { mkdir, mkdtemp, readFile, rename, rm, stat, writeFile } from 'node:fs/promises';
+import { homedir } from 'node:os';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { gunzipSync } from 'node:zlib';
@@ -27,7 +28,7 @@ export async function initializeDfmh({ codexHome = process.env.CODEX_HOME, now =
     const state = {
       schemaVersion: 1,
       status: 'installed',
-      version: '1.0.2',
+      version: '1.0.3',
       installedAt: now(),
       installCount: 1,
       capabilityCount: lock.packages.length,
@@ -98,3 +99,13 @@ async function exists(filePath) {
 }
 function sha256(value) { return createHash('sha256').update(value).digest('hex'); }
 function delay(milliseconds) { return new Promise((resolve) => setTimeout(resolve, milliseconds)); }
+
+if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
+  const codexHome = process.env.CODEX_HOME || path.join(homedir(), '.codex');
+  initializeDfmh({ codexHome })
+    .then((result) => process.stdout.write(JSON.stringify(result, null, 2) + '\n'))
+    .catch((error) => {
+      process.stderr.write('DFMH initialization failed: ' + error.message + '\n');
+      process.exitCode = 1;
+    });
+}

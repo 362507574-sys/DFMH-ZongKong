@@ -1,56 +1,56 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-06T01:31:05.010Z",
+  "generatedAt": "2026-08-06T02:02:41.554Z",
   "packages": [
     {
       "repoName": "DFMH-ZhangDuoGuan",
-      "commit": "5ce6bc57fe5bf5f6bb4cda926b7b55596469b82e",
+      "commit": "dddcf7a0d4c8c5d831c96926cc6892a3ec346447",
       "maturity": "designing",
       "repository": "https://github.com/362507574-sys/DFMH-ZhangDuoGuan",
       "installMode": "bundled-or-pinned-download",
       "alias": "zg",
       "archivePath": "assets/capability-archives/zg.json.gz",
-      "archiveSha256": "26e1719ad8f016c38eac79660d3a3875736254f856519daef90ca22907894836"
+      "archiveSha256": "69f814b380f5b46636d61b08c6ed0fcad875a6c6c05e458e92587874d30f9e63"
     },
     {
       "repoName": "DFMH-ZengZhangZhanLueGuan",
-      "commit": "54d40fbfeedc360916a7d2d3c434af050707bd1c",
+      "commit": "d8ef63be300efce90d3137c8d21dafe41a9abfe2",
       "maturity": "designing",
       "repository": "https://github.com/362507574-sys/DFMH-ZengZhangZhanLueGuan",
       "installMode": "bundled-or-pinned-download",
       "alias": "zz",
       "archivePath": "assets/capability-archives/zz.json.gz",
-      "archiveSha256": "31349e9f7a452dcf7b64d9773e13fa4a0d6f73c1fa0f7f8e11d28f315143dfbd"
+      "archiveSha256": "882eddd2dbcdb4c39bc06986dc7b69f934f27cf5f7096cb0c83887c4d5266946"
     },
     {
       "repoName": "DFMH-ChengJiaoGuan",
-      "commit": "6fa7099fc5772fb0c41d713b6f8fe9e25e1279fa",
+      "commit": "b0a4ace9d978927b15f3e7c89efbdbe3de1d369d",
       "maturity": "designing",
       "repository": "https://github.com/362507574-sys/DFMH-ChengJiaoGuan",
       "installMode": "bundled-or-pinned-download",
       "alias": "cj",
       "archivePath": "assets/capability-archives/cj.json.gz",
-      "archiveSha256": "878b898f4af936e50947469a84e43708584763c766997b76128e1a82ceabeeaf"
+      "archiveSha256": "198a0d075efe7c4774faa615eb3c4c3d65a73ed333dda4e3907dbcca198fd376"
     },
     {
       "repoName": "DFMH-ZuZhiGuan",
-      "commit": "ea1083986232c23241aacbbdbd54f4d6c32f8f84",
+      "commit": "d458c9bd26a00603aa0bd0297e65c24ce0fb9d85",
       "maturity": "operational",
       "repository": "https://github.com/362507574-sys/DFMH-ZuZhiGuan",
       "installMode": "bundled-or-pinned-download",
       "alias": "zd",
       "archivePath": "assets/capability-archives/zd.json.gz",
-      "archiveSha256": "6814fa39080d38c96cd861ab013a37d6872280cab384e842e18c331cba152eaa"
+      "archiveSha256": "119bdbfd601644601868a16d98e2aba070d8b1c8f65516849cbfa1b69f72967b"
     },
     {
       "repoName": "DFMH-PinPaiGuan",
-      "commit": "0626af7522d8d5bee0cce80063ca2f7109409d39",
+      "commit": "539f5c097db1da2d344f775418613d480680ef4c",
       "maturity": "designing",
       "repository": "https://github.com/362507574-sys/DFMH-PinPaiGuan",
       "installMode": "bundled-or-pinned-download",
       "alias": "pp",
       "archivePath": "assets/capability-archives/pp.json.gz",
-      "archiveSha256": "53b42d05bd59d4ed0334ead290517b9218d63645716a9ef858d1ffe49daa4d70"
+      "archiveSha256": "c89c433be28ac940b0b932dbd21214e588f269768397329fc54f6d6c1eb1d4b1"
     },
     {
       "repoName": "DFMH-HaiBaoSheJi",
@@ -60,7 +60,7 @@
       "installMode": "bundled-or-pinned-download",
       "alias": "hb",
       "archivePath": "assets/capability-archives/hb.json.gz",
-      "archiveSha256": "a2669ff6936861c9cf931a1d5d1726a163f88e75f725b84066301dad96bd337a"
+      "archiveSha256": "5e26565b8bd54d752a6cdf02a88b416f0ece6b2a91f2c43825977f73dba12597"
     },
     {
       "repoName": "DFMH-TaoBaoTaoTuSheJi",
@@ -70,7 +70,7 @@
       "installMode": "bundled-or-pinned-download",
       "alias": "tb",
       "archivePath": "assets/capability-archives/tb.json.gz",
-      "archiveSha256": "d347d341a1f89daeb13112225f0b9f5cf80af5b749f491e35195dd782d132567"
+      "archiveSha256": "2df904b61abbefccaf2c07b2aa91ae5bce8898bb7aa46ba197baa56a7c548774"
     }
   ]
 }

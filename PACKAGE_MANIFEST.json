@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-06T01:31:05.010Z",
+  "generatedAt": "2026-08-06T02:02:41.554Z",
   "files": [
     {
       "path": ".agents/plugins/marketplace.json",
@@ -10,52 +10,52 @@
     {
       "path": "package.json",
       "bytes": 192,
-      "sha256": "a208794a2ddbf2a5879cd5fc6cb0bc6e1ce337fb179c24da4b2803b8410c4435"
+      "sha256": "15eb9bb842ddb98ab10850aec0463c16b0bfc6b656e2b0456e5195fff5538f85"
     },
     {
       "path": "plugins/dfmh-zongkong/.codex-plugin/plugin.json",
       "bytes": 994,
-      "sha256": "a5cd39fd1ecf94b223197f6865ab278df2e8143372b657440375cc62fb1282cb"
+      "sha256": "9b27f3ce1485c77600ee39123975e79a1fffd90de8f875ccecdf7f05a8434f8a"
     },
     {
       "path": "plugins/dfmh-zongkong/assets/capability-archives/cj.json.gz",
-      "bytes": 102322,
-      "sha256": "878b898f4af936e50947469a84e43708584763c766997b76128e1a82ceabeeaf"
+      "bytes": 104737,
+      "sha256": "198a0d075efe7c4774faa615eb3c4c3d65a73ed333dda4e3907dbcca198fd376"
     },
     {
       "path": "plugins/dfmh-zongkong/assets/capability-archives/hb.json.gz",
-      "bytes": 150818,
-      "sha256": "a2669ff6936861c9cf931a1d5d1726a163f88e75f725b84066301dad96bd337a"
+      "bytes": 150816,
+      "sha256": "5e26565b8bd54d752a6cdf02a88b416f0ece6b2a91f2c43825977f73dba12597"
     },
     {
       "path": "plugins/dfmh-zongkong/assets/capability-archives/pp.json.gz",
-      "bytes": 335261,
-      "sha256": "53b42d05bd59d4ed0334ead290517b9218d63645716a9ef858d1ffe49daa4d70"
+      "bytes": 337884,
+      "sha256": "c89c433be28ac940b0b932dbd21214e588f269768397329fc54f6d6c1eb1d4b1"
     },
     {
       "path": "plugins/dfmh-zongkong/assets/capability-archives/tb.json.gz",
-      "bytes": 307528,
-      "sha256": "d347d341a1f89daeb13112225f0b9f5cf80af5b749f491e35195dd782d132567"
+      "bytes": 307525,
+      "sha256": "2df904b61abbefccaf2c07b2aa91ae5bce8898bb7aa46ba197baa56a7c548774"
     },
     {
       "path": "plugins/dfmh-zongkong/assets/capability-archives/zd.json.gz",
-      "bytes": 138390,
-      "sha256": "6814fa39080d38c96cd861ab013a37d6872280cab384e842e18c331cba152eaa"
+      "bytes": 140899,
+      "sha256": "119bdbfd601644601868a16d98e2aba070d8b1c8f65516849cbfa1b69f72967b"
     },
     {
       "path": "plugins/dfmh-zongkong/assets/capability-archives/zg.json.gz",
-      "bytes": 187369,
-      "sha256": "26e1719ad8f016c38eac79660d3a3875736254f856519daef90ca22907894836"
+      "bytes": 190074,
+      "sha256": "69f814b380f5b46636d61b08c6ed0fcad875a6c6c05e458e92587874d30f9e63"
     },
     {
       "path": "plugins/dfmh-zongkong/assets/capability-archives/zz.json.gz",
-      "bytes": 368223,
-      "sha256": "31349e9f7a452dcf7b64d9773e13fa4a0d6f73c1fa0f7f8e11d28f315143dfbd"
+      "bytes": 370399,
+      "sha256": "882eddd2dbcdb4c39bc06986dc7b69f934f27cf5f7096cb0c83887c4d5266946"
     },
     {
       "path": "plugins/dfmh-zongkong/assets/dependency-lock.json",
       "bytes": 3191,
-      "sha256": "2a4900cc58cf7059d93726230aeb23ca677416bb1dae9c41c5daf38cf0a2e2b9"
+      "sha256": "827bb9cbcf18861959bb9047fb55189ca78d087497c75e4f06674d8981173a83"
     },
     {
       "path": "plugins/dfmh-zongkong/config/config.example.json",
@@ -74,23 +74,23 @@
     },
     {
       "path": "plugins/dfmh-zongkong/scripts/bootstrap.mjs",
-      "bytes": 5277,
-      "sha256": "b37bad43f0142c413f5c25f6876b607456e133007b9b094becdb64665f83bcda"
+      "bytes": 5743,
+      "sha256": "243e12339f8e11d558577dca7c964261d201f182e898bb303eb01539bb39c823"
     },
     {
       "path": "plugins/dfmh-zongkong/skills/dfmh-brand-officer-brand-communication/SKILL.md",
-      "bytes": 477,
-      "sha256": "ca3f8cbb50841075137b66e16d60d8b4cbf865d7ece7e229fe0542bfb8ca45bd"
+      "bytes": 835,
+      "sha256": "fe640963b3f27e2d6e55da97280df31f6d37670def814d2eab1135e4173fa91a"
     },
     {
       "path": "plugins/dfmh-zongkong/skills/dfmh-brand-officer-brand-positioning/SKILL.md",
-      "bytes": 473,
-      "sha256": "7faf6b9ac79786dcc4011e9687b9dce5ce2404e22d194a6dfb54354ae4ebee2a"
+      "bytes": 831,
+      "sha256": "2cadb0e78cc27dedc8577c439bb0d8249b21d57bb912bb98dd666e5b4beba358"
     },
     {
       "path": "plugins/dfmh-zongkong/skills/dfmh-brand-officer-brand-visual/SKILL.md",
-      "bytes": 463,
-      "sha256": "923233eb2ba4303b102ce6ad9152b11dcf0e8a0ef2da60363a84274195cf6d35"
+      "bytes": 821,
+      "sha256": "5ff20499e105a017c065b334b621a81987d2417d776bf703e8c69bd1596df862"
     },
     {
       "path": "plugins/dfmh-zongkong/skills/dfmh-control-center/SKILL.md",
@@ -99,18 +99,18 @@
     },
     {
       "path": "plugins/dfmh-zongkong/skills/dfmh-deal-officer-customer-insight/SKILL.md",
-      "bytes": 473,
-      "sha256": "4c32adb50bd7fa0faeb475ae76b8e24212d942d15efa0dbfd3e72076d3c282fe"
+      "bytes": 831,
+      "sha256": "c4ed28332248ce296b98cd5caede885cb4f0b1b38193fe9c5e36ebfecd35c5da"
     },
     {
       "path": "plugins/dfmh-zongkong/skills/dfmh-deal-officer-deal-strategy/SKILL.md",
-      "bytes": 467,
-      "sha256": "d4ab275f0e46b7d974146a88cb98cbf1eb155bcf7771b0c7e6fd6542c5d8c79b"
+      "bytes": 825,
+      "sha256": "ed9c619bbe594581e830009c8a941ad6c11c3b6ad93340c33ae1444c276acddc"
     },
     {
       "path": "plugins/dfmh-zongkong/skills/dfmh-deal-officer-sales-training/SKILL.md",
-      "bytes": 469,
-      "sha256": "7200a73949180dab7c0ff87acf0101424ed30139ac2a82997883e5dd8b03351b"
+      "bytes": 827,
+      "sha256": "ce80f73c8e84b783c44d7e961385b7b0b96036b99369f4e1a0194f74a19a298d"
     },
     {
       "path": "plugins/dfmh-zongkong/skills/dfmh-feishu-commander/SKILL.md",
@@ -119,53 +119,53 @@
     },
     {
       "path": "plugins/dfmh-zongkong/skills/dfmh-growth-strategist-competitive-benchmark-analysis/SKILL.md",
-      "bytes": 531,
-      "sha256": "58a6fc1541439afaa95ef4c34b054685556e04da15af55111a530c443c37814f"
+      "bytes": 889,
+      "sha256": "00ec8737eaa2fdbc67f9d159aaeabf8212b992e6e22de0f16c442d871540806f"
     },
     {
       "path": "plugins/dfmh-zongkong/skills/dfmh-growth-strategist-content-customer-growth/SKILL.md",
-      "bytes": 523,
-      "sha256": "469caa7aa34c5128de22df755c2d6666f80f929b5a0c3876f4ea521843f3413d"
+      "bytes": 881,
+      "sha256": "85aa8d31fa99b0927847dc3d5735b254097e21517fdd8d558c9001ccc5f6df21"
     },
     {
       "path": "plugins/dfmh-zongkong/skills/dfmh-growth-strategist-growth-opportunity-analysis/SKILL.md",
-      "bytes": 525,
-      "sha256": "7992ce69f984474191062771d76c0b1a55954be4d9fa4c6b3b8938185aa4897b"
+      "bytes": 883,
+      "sha256": "a4828d6d8f12d8ffeb081a1ff3434f0eba98d3769331d67228cbc20945267583"
     },
     {
       "path": "plugins/dfmh-zongkong/skills/dfmh-helmsman-business-model/SKILL.md",
-      "bytes": 457,
-      "sha256": "c96c5e210e08236bb4c1459bffc429a61176b8902ef559039440338e886238e1"
+      "bytes": 815,
+      "sha256": "acfb0e09caf06a9ce83364ef7423e1c47a27468a404762912985672f4a4b1bde"
     },
     {
       "path": "plugins/dfmh-zongkong/skills/dfmh-helmsman-enterprise-analysis/SKILL.md",
-      "bytes": 467,
-      "sha256": "17704d8cfd2dc62624ad4567f0a1846161c1d94b7d31276e8678413ba9497530"
+      "bytes": 825,
+      "sha256": "c3e9250bdd4cc3010f73a6e0bb1d7f7bc7d7d13ad7b62c3f6ab42f54b13f7158"
     },
     {
       "path": "plugins/dfmh-zongkong/skills/dfmh-helmsman-strategy-planning/SKILL.md",
-      "bytes": 463,
-      "sha256": "7e34569718c188fdb12e57490d5731210a79f86db6d0338296674f1ed4e04623"
+      "bytes": 821,
+      "sha256": "21c1c0382b8bd3bab39b21000a080d2f58026ee6523a5d01d78fe51cd8d9826d"
     },
     {
       "path": "plugins/dfmh-zongkong/skills/dfmh-organization-officer-process-replication/SKILL.md",
-      "bytes": 491,
-      "sha256": "b2abf0d241a75d4c5b57837d3ccb599f07d8cc66c20ca784e3b5bf2f9f9053b9"
+      "bytes": 849,
+      "sha256": "4ec2b32680f1a9d97b915e9d06a5df55ab0987f562a00204efabbbd452f4d60f"
     },
     {
       "path": "plugins/dfmh-zongkong/skills/dfmh-organization-officer-talent-allocation/SKILL.md",
-      "bytes": 487,
-      "sha256": "c540e30bba7418723555324f49a3680c5da8854038b0fd1928d8390bd0d60ef6"
+      "bytes": 845,
+      "sha256": "34e546b98f7480f903a4ccb6e68cf17b9dcfc6ba0767135c3f4c571127044491"
     },
     {
       "path": "plugins/dfmh-zongkong/skills/dfmh-organization-officer-talent-development/SKILL.md",
-      "bytes": 489,
-      "sha256": "11e72c836fa68339a32dbf598aa1ec9fc80201c53ffe47943759e43a3f5af969"
+      "bytes": 847,
+      "sha256": "961a52e7755127a4dc4b4b6a4b19aa3c8583d110f0a1ba6b30c68bde6009e665"
     },
     {
       "path": "plugins/dfmh-zongkong/skills/dfmh-promotional-poster/SKILL.md",
-      "bytes": 414,
-      "sha256": "bbfaa40ca61b0cfa02fe824b164ea69cb679d9646be4cd2ff7dcdcf0a2bdb6ca"
+      "bytes": 772,
+      "sha256": "04a7683c29d43351f8a4041d91a6ad68895f23906a95686d24bda3877f56ad3c"
     },
     {
       "path": "plugins/dfmh-zongkong/skills/dfmh-quality-publisher/SKILL.md",
@@ -174,13 +174,13 @@
     },
     {
       "path": "plugins/dfmh-zongkong/skills/dfmh-taobao-image-set/SKILL.md",
-      "bytes": 398,
-      "sha256": "097297d06482ff7fd6e34bd972b2129c256bb83943a3b2eaa2ebbe0828168298"
+      "bytes": 756,
+      "sha256": "fa7f1b0b49e94009ecdaab9f4fb2e51f2bc537ad36fda6e16ca8ba687b3d56b4"
     },
     {
       "path": "plugins/dfmh-zongkong/skills/dfmh-zongkong-bootstrap/SKILL.md",
-      "bytes": 453,
-      "sha256": "742707c9d5a3c8dafd146861146537940e364a0d42c8d19678b287e4addc03f9"
+      "bytes": 961,
+      "sha256": "15b11e536690a30bf7e8aa235f00d01f602d6f1134fcfff54e1e2fa0c6a4c240"
     },
     {
       "path": "PRIVACY.md",
@@ -199,13 +199,13 @@
     },
     {
       "path": "QUICKSTART.md",
-      "bytes": 445,
-      "sha256": "1ee60464e97c05bc694ecf5fabe5a8fe0eaf02ade528fa25d78854202ece1b5d"
+      "bytes": 3405,
+      "sha256": "19594532956c7280835a72881e31460201bd84934fe32ef88f3be3f02068c3f3"
     },
     {
       "path": "README.md",
-      "bytes": 918,
-      "sha256": "9417cbcfea12f0060cb61931dc2350a0616ca5dde394f7a58c35b9f4e0310af0"
+      "bytes": 1834,
+      "sha256": "209806e536369ff6c4c23e6a131b8cdbf14bb6e0805258f232819cbfe7f89d86"
     },
     {
       "path": "SECURITY.md",
